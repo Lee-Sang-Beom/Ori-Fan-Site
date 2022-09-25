@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+=======
+
+# video
+/src/video
+>>>>>>> parent of 9e8d482 (set background video)
