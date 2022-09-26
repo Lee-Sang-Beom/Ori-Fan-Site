@@ -1,5 +1,5 @@
 import Ori from "../video/main.mp4";
-import styles from "../css/background/MainBackground.module.css";
+import styles from "../css/main/Main.module.css";
 
 export default function BackgroundVideo() {
   return (

@@ -1,0 +1,28 @@
+.header {
+    height: 70px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header__mainlogo {
+        img {
+            position: absolute;
+            top: 0;
+            width: 125px;
+            cursor: pointer;
+        }
+    }
+
+
+    .header__github {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        color: white;
+        margin-right:2rem;
+        cursor: pointer;   
+        font-size:2rem;
+    }
+}
