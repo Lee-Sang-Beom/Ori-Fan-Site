@@ -2,8 +2,9 @@ import react from 'react';
 import styles from './css/main/Main.module.css';
 import {Reset} from 'styled-reset';
 import React from 'react';
-import BackgroundVideo from './Component/backgroundVideo';
+import BackgroundVideo from './Component/BackgroundVideo';
 import Header from './Component/Header';
+import Nav from './Component/Nav';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className={styles.container}>
         <BackgroundVideo/>
         <Header />
+        <Nav />
       </div>
     </React.Fragment>
   );
