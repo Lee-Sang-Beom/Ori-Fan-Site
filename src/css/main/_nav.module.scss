@@ -14,6 +14,10 @@
         font-size: 5rem;
         color: white;
         
+        @media screen and (max-width: 480px){
+            flex-direction: column;
+        } 
+
         .nav__left_forest{
             border-radius: 50%;
             width: 45%;
@@ -31,6 +35,26 @@
                 transform: translate(-50%,-50%);
             }
 
+            
+            @media screen and (max-width: 1500px){
+                height: 40%;
+            } 
+
+            @media screen and (max-width: 1024px){
+                height: 30%;
+            }
+            
+            @media screen and (max-width: 768px){
+                height: 20%;
+            } 
+
+            @media screen and (max-width: 480px){
+                width: 85%;
+                height: 30%;
+                margin-right: 0%;
+                margin: 1rem 0;
+            } 
+            
         }
 
         .nav__right_wisp{
@@ -52,8 +76,25 @@
                 
             }
 
-            // background-color: bisque;
+            @media screen and (max-width: 1500px){
+                height: 40%;
+            } 
 
+            @media screen and (max-width: 1024px){
+                height: 30%;
+            } 
+            
+            @media screen and (max-width: 768px){
+                height: 20%;
+            } 
+
+            @media screen and (max-width: 480px){
+                width: 85%;
+                height: 30%;
+                margin-right: 0%;
+                margin: 1rem 0;
+            } 
+            
         }
 
     }
