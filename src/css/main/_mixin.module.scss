@@ -1,0 +1,16 @@
+$sm-width: 520px;
+$md-width: 800px;
+$lg-width: 1024px;
+$xl-width: 1500px;
+
+
+$width-small: "screen and (max-width: #{$sm-width})"; 
+$width-medium: "screen and (max-width: #{$md-width})";
+$width-large: "screen and (max-width: #{$lg-width})";
+$width-xlarge: "screen and (max-width: #{$xl-width})";
+
+
+@mixin setBoxSize($h, $w){
+    width: $w;
+    height: $h;
+}
