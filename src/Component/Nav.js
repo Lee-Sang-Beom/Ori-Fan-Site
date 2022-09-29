@@ -8,10 +8,14 @@ export default function Nav() {
       <div className={styles.nav__wrap}>
         <div className={styles.nav}>
           <div className={styles.nav__left_forest}>
-            <img src={forestlogo} />
+            <Link to="/ori_forest">
+              <img src={forestlogo} />
+            </Link>
           </div>
           <div className={styles.nav__right_wisp}>
-            <img src={wisplogo} />
+            <Link to="/ori_wisp">
+              <img src={wisplogo} />
+            </Link>
           </div>
         </div>
       </div>

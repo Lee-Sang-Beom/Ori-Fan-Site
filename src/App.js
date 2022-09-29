@@ -1,12 +1,11 @@
 import react from "react";
-import styles from "./css/main/Main.module.css";
 import { Reset } from "styled-reset";
 import React from "react";
-import BackgroundVideo from "./Component/BackgroundVideo";
 import Main from "./pages/Main";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import Wisp from "./pages/Wisp";
-import Forest from "./pages/Foreset";
+import Forest from "./pages/Forest";
+import Header from "./Component/Header";
 
 function App() {
   const routes = [
@@ -27,10 +26,20 @@ function App() {
   return (
     <React.Fragment>
       <Reset />
-        <div className={styles.container}>
-          <BackgroundVideo />
-          <Main />
-        </div>
+
+      <Router>
+        <Header />
+        <Routes>
+          {routes.map((item) => (
+            <Route
+              key={item.path}
+              path={item.path}
+              exact
+              element={item.component}
+            />
+          ))}
+        </Routes>
+      </Router>
     </React.Fragment>
   );
 }
