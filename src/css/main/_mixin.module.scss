@@ -14,3 +14,51 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
     width: $w;
     height: $h;
 }
+
+@mixin ball($shadow-color){
+    box-shadow: 
+    0 0 20px 0 white,
+    10px 10px 20px 10px $shadow-color,
+    -10px -10px 20px 0 rgb(0,0,0),
+
+    inset  0 0 14px 0 white,
+    inset  -40px -30px 60px 0 $shadow-color,
+    inset  -40px -30px 70px 0 blue,
+    inset  -40px -30px 100px 0 white,
+    inset  -40px -30px 140px 0 rgb(110, 229, 245);
+
+    animation: glow 0.8s linear infinite alternate;
+
+    @keyframes glow { 
+        
+        from{
+            /*애니메이션이 시작될 때 요소에게 지정할 스타일*/
+            box-shadow: 
+            0 0 20px 0 white,
+            10px 10px 20px 10px $shadow-color,
+            -10px -10px 20px 0 rgb(0,0,0),
+        
+            inset  0 0 14px 0 white,
+            inset  -40px -30px 60px 0 $shadow-color,
+            inset  -40px -30px 70px 0 blue,
+            inset  -40px -30px 100px 0 white,
+            inset  -40px -30px 140px 0 rgb(110, 229, 245);
+        }
+    
+        to{
+            /*애니메이션이 종료될 때 요소에게 지정할 스타일*/
+            box-shadow: 
+            0 0 20px 0 white,
+            10px 10px 20px 10px rgb(0,0,0),
+            -10px -10px 20px 0 $shadow-color,
+        
+            inset  0 0 14px 0 white,
+            inset  -40px -30px 60px 0 rgb(0,0,0),
+            inset  -40px -30px 70px 0 blue,
+            inset  -40px -30px 100px 0 $shadow-color,
+            inset  -40px -30px 140px 0 rgb(110, 229, 245);
+        }
+    }
+    
+}
+

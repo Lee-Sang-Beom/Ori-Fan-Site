@@ -1,7 +1,7 @@
 import styles from "../css/main/Main.module.css";
 import forestlogo from "../img/forest_logo.png";
 import wisplogo from "../img/wisp_logo.png";
-
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 export default function Nav() {
   return (
     <>
