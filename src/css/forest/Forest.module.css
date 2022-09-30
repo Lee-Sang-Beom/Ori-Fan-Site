@@ -1,0 +1,72 @@
+[data-scroll] {
+  opacity: 0;
+  will-change: transform, scale, opacity;
+  transform: translateY(5rem) scale(0.8);
+  transition: all 1s ease-in-out;
+}
+
+[data-scroll=in] {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+[data-scroll=out] {
+  opacity: 0;
+  transform: translateY(-5rem) scale(0.8);
+}
+
+.container {
+  background-color: black;
+  height: 100%;
+}
+.container .site_wrap section {
+  margin-bottom: 10rem;
+  padding: 10rem 0;
+  height: 50%;
+}
+.container .site_wrap section:last-child {
+  margin-bottom: 0;
+}
+.container .site_wrap section .box {
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+  .container .site_wrap section .box {
+    flex-direction: column;
+  }
+}
+.container .site_wrap section .box .left_box {
+  width: 55%;
+}
+@media screen and (max-width: 800px) {
+  .container .site_wrap section .box .left_box {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+.container .site_wrap section .box .left_box img {
+  width: 100%;
+}
+.container .site_wrap section .box .right_box {
+  border: 0.5rem solid skyblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 1px rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  background-color: aliceblue;
+  width: 35%;
+}
+@media screen and (max-width: 800px) {
+  .container .site_wrap section .box .right_box {
+    width: 100%;
+  }
+}
+.container .site_wrap section .box .right_box h1 {
+  font-size: 1.2rem;
+}
+.container .site_wrap section .box .right_box p {
+  font-size: 0.8rem;
+}/*# sourceMappingURL=Forest.module.css.map */
