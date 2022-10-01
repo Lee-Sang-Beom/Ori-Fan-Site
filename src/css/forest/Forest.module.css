@@ -2,7 +2,7 @@
   opacity: 0;
   will-change: transform, scale, opacity;
   transform: translateY(5rem) scale(0.8);
-  transition: all 1s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 
 [data-scroll=in] {
@@ -16,16 +16,45 @@
 }
 
 .container {
+  width: 100%;
+  height: 100vh;
+}
+.container .site_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
-  height: 100%;
+}
+.container .site_wrap .image1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(../../img/ori_forest.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container .site_wrap .image2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(../../img/forest_logo2.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container .site_wrap .image3 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(../../img/ori_forest.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .container .site_wrap section {
-  margin-bottom: 10rem;
-  padding: 10rem 0;
+  width: 100%;
   height: 50%;
-}
-.container .site_wrap section:last-child {
-  margin-bottom: 0;
+  padding: 7rem 0;
+  border: none;
+  box-shadow: 0 0 5px 1px white, 10px 10px 10px 1px rgb(65, 94, 255), -10px -10px 10px 1px rgb(65, 94, 255), inset 0 0 14px 0 white, inset -30px 0px 60px 0 rgb(121, 168, 255), inset 30px 0px 60px 0 rgb(121, 168, 255), inset -50px -30px 70px 0 rgb(161, 194, 255), inset 50px 30px 70px 0 rgb(161, 194, 255), inset -60px -30px 100px 0 white, inset 60px 30px 100px 0 white;
 }
 .container .site_wrap section .box {
   margin: 0 auto;
@@ -34,7 +63,7 @@
   align-items: center;
   justify-content: space-around;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .container .site_wrap section .box {
     flex-direction: column;
   }
@@ -42,14 +71,15 @@
 .container .site_wrap section .box .left_box {
   width: 55%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .container .site_wrap section .box .left_box {
     width: 100%;
-    margin: 1rem 0;
   }
 }
 .container .site_wrap section .box .left_box img {
   width: 100%;
+  border-radius: 1rem;
+  border: none;
 }
 .container .site_wrap section .box .right_box {
   border: 0.5rem solid skyblue;
@@ -59,7 +89,7 @@
   background-color: aliceblue;
   width: 35%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .container .site_wrap section .box .right_box {
     width: 100%;
   }

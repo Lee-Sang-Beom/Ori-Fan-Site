@@ -6,8 +6,11 @@ import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import Wisp from "./pages/Wisp";
 import Forest from "./pages/Forest";
 import Header from "./Component/Header";
+import ScrollOut from "scroll-out";
 
 function App() {
+
+
   const routes = [
     {
       path: "/",
