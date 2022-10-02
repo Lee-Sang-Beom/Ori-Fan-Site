@@ -3,7 +3,6 @@ $md-width: 768px;
 $lg-width: 1024px;
 $xl-width: 1500px;
 
-
 $width-small: "screen and (max-width: #{$sm-width})"; 
 $width-medium: "screen and (max-width: #{$md-width})";
 $width-large: "screen and (max-width: #{$lg-width})";
@@ -15,6 +14,16 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
     height: $h;
 }
 
+@mixin section-box-shadow($color-1, $color-2, $color-3){
+    box-shadow:
+            0 0 5px 0 white,
+            inset  -10px 0px 30px 0  $color-2,
+            inset  10px 0px 30px 0  $color-2,
+            inset  -20px -20px 50px 0 $color-3,
+            inset  20px 20px 50px 0 $color-3,
+            inset  -21px -21px 60px 0 white,
+            inset  21px 21px 60px 0 white;
+}
 @mixin ball($shadow-color){
     box-shadow: 
     0 0 20px 0 white,
@@ -28,7 +37,6 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
     inset  -40px -30px 140px 0 rgb(110, 229, 245);
 
     animation: glow 0.8s linear infinite alternate;
-
     @keyframes glow { 
         
         from{
