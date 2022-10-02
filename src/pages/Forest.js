@@ -1,25 +1,40 @@
 import styles from "../css/forest/Forest.module.css";
 import ScrollOut from "scroll-out";
-import img_1 from "../img/1.jpg";
+import forest_start from "../img/forest_start.jpg";
+import tree from "../img/tree.jpg";
+import wind from "../img/wind.jpg";
+import mountain from "../img/mountain.jpg";
+import top_icon from "../img/top_icon.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownLong } from "@fortawesome/free-solid-svg-icons";
+
 import { useEffect } from "react";
 
 function Forest() {
   useEffect(() => {
-    ScrollOut({});
+    ScrollOut({
+      
+    });
   }, []);
+
+  
 
   return (
     <div className={styles.container}>
       <div className={styles.site_wrap}>
+        <div  className={styles.forest_logo}>
+          <img src={top_icon}/>
+        </div>
+
         {/* 1 */}
         <div className={styles.image1}></div>
         <section data-scroll className={styles.content}>
           <div className={styles.box}>
             <div className={styles.left_box}>
-              <img src={img_1} alt="img1" />
+              <img src={forest_start} alt="img1" />
             </div>
             <div className={styles.right_box}>
-              <h1>Scroll in down</h1>
+              <h1>모험의 시작</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                 ut dolor nisl. Nunc hendrerit tempus tortor in imperdiet. Sed
@@ -43,10 +58,10 @@ function Forest() {
         <section data-scroll className={styles.content}>
           <div className={styles.box}>
             <div className={styles.left_box}>
-              <img src={img_1} alt="img1" />
+              <img src={tree} alt="img1" />
             </div>
             <div className={styles.right_box}>
-              <h1>Scroll in down</h1>
+              <h1>긴소나무</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                 ut dolor nisl. Nunc hendrerit tempus tortor in imperdiet. Sed
@@ -70,10 +85,10 @@ function Forest() {
         <section data-scroll className={styles.content}>
           <div className={styles.box}>
             <div className={styles.left_box}>
-              <img src={img_1} alt="img1" />
+              <img src={wind} alt="img1" />
             </div>
             <div className={styles.right_box}>
-              <h1>Scroll in down</h1>
+              <h1>버려진 유적</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                 ut dolor nisl. Nunc hendrerit tempus tortor in imperdiet. Sed
@@ -97,10 +112,10 @@ function Forest() {
         <section data-scroll className={styles.content}>
           <div className={styles.box}>
             <div className={styles.left_box}>
-              <img src={img_1} alt="img1" />
+              <img src={mountain} alt="img1" />
             </div>
             <div className={styles.right_box}>
-              <h1>Scroll in down</h1>
+              <h1>호루산</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                 ut dolor nisl. Nunc hendrerit tempus tortor in imperdiet. Sed
