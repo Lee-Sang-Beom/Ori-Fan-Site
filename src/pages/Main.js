@@ -1,5 +1,5 @@
 import Nav from "../Component/Nav";
-import BackgroundVideo from "../Component/BackgroundVideo";
+import BackgroundVideo from "../Component/backgroundVideo";
 import styles from "../css/main/Main.module.css";
 
 function Main() {
