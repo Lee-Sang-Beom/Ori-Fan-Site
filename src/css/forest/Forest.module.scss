@@ -32,7 +32,7 @@
         .forest_logo{
             position: absolute;
             border-radius: 50%;
-            padding: 3rem;
+            padding: 1.5rem;
 
             // 70px: header
             top:calc(50% + 70px);
@@ -57,9 +57,10 @@
 
                 }    
                 
-                @media screen and (max-height: 300px){
+                @media #{$width-small}{
                     display:none;
-                }            
+                }      
+                           
             }
 
             @media #{$width-medium} {
@@ -68,10 +69,11 @@
                 padding: 0;
             }
 
-            @media screen and (max-height: 500px){
-                box-shadow:none;
-                animation:none;
-            }
+            @media screen and (max-height: 520px){
+                display:none;
+            }  
+            
+
 
             
         }

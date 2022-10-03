@@ -30,7 +30,7 @@
 .container .site_wrap .forest_logo {
   position: absolute;
   border-radius: 50%;
-  padding: 3rem;
+  padding: 1.5rem;
   top: calc(50% + 70px);
   left: 50%;
   box-shadow: 0 1px 1.5rem 0 #000000, inset 0 2px 0.5rem 0 #b6b6b6, inset 0 -2px 0.5rem 0 #b6b6b6;
@@ -71,7 +71,7 @@
     transform: scale(1.1);
   }
 }
-@media screen and (max-height: 300px) {
+@media screen and (max-width: 520px) {
   .container .site_wrap .forest_logo img {
     display: none;
   }
@@ -84,11 +84,9 @@
     padding: 0;
   }
 }
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 520px) {
   .container .site_wrap .forest_logo {
-    box-shadow: none;
-    -webkit-animation: none;
-            animation: none;
+    display: none;
   }
 }
 .container .site_wrap section {
