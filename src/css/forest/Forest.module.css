@@ -71,12 +71,24 @@
     transform: scale(1.1);
   }
 }
+@media screen and (max-height: 300px) {
+  .container .site_wrap .forest_logo img {
+    display: none;
+  }
+}
 @media screen and (max-width: 768px) {
   .container .site_wrap .forest_logo {
     box-shadow: none;
     -webkit-animation: none;
             animation: none;
     padding: 0;
+  }
+}
+@media screen and (max-height: 500px) {
+  .container .site_wrap .forest_logo {
+    box-shadow: none;
+    -webkit-animation: none;
+            animation: none;
   }
 }
 .container .site_wrap section {

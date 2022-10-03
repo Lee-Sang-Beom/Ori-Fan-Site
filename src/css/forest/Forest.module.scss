@@ -53,15 +53,24 @@
 
                     @media #{$width-medium} {
                         transform: scale(1.1);
-
                     }
-                }                
+
+                }    
+                
+                @media screen and (max-height: 300px){
+                    display:none;
+                }            
             }
 
             @media #{$width-medium} {
                 box-shadow:none;
                 animation: none;
                 padding: 0;
+            }
+
+            @media screen and (max-height: 500px){
+                box-shadow:none;
+                animation:none;
             }
 
             
