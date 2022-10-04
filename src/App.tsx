@@ -1,12 +1,10 @@
-import react from "react";
 import { Reset } from "styled-reset";
-import React from "react";
 import Main from "./pages/Main";
-import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Wisp from "./pages/Wisp";
 import Forest from "./pages/Forest";
 import Header from "./Component/Header";
-import ScrollOut from "scroll-out";
+import React from "react";
 
 function App() {
 
@@ -29,7 +27,6 @@ function App() {
   return (
     <React.Fragment>
       <Reset />
-
       <Router>
         <Header />
         <Routes>
@@ -37,7 +34,6 @@ function App() {
             <Route
               key={item.path}
               path={item.path}
-              exact
               element={item.component}
             />
           ))}

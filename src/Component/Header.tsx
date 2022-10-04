@@ -1,9 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "../css/main/Main.module.css";
-import mainlogo from "../img/Ori-logo.png";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-
+import Orilogo from "../img/Ori-logo.png";
 
 export default function Header() {
   return (
@@ -12,7 +11,7 @@ export default function Header() {
         <div className={styles.header__mainlogo}>
           {/* Link to 사용 : 내부 페이지 */}
           <Link to="/">
-            <img src={mainlogo} />
+            <img src={Orilogo} />
           </Link>
         </div>
         <div className={styles.header__github}>
