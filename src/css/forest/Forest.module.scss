@@ -19,60 +19,53 @@
     transform: translateY(-5rem) scale(0.7);
 }
 
-.container{
+.container {
     @include setBoxSize(100vh, 100%);
     min-height: 350px;
 
     .site_wrap {
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #000000;
 
-        .forest_logo{
+        .forest_logo {
             position: absolute;
             border-radius: 50%;
             padding: 1.5rem;
 
             // 70px: header
-            top:calc(50% + 70px);
-            left:50%;
+            top: calc(50% + 70px);
+            left: 50%;
 
             // 페이지 별 메인 로고 뒷배경 shadow
             @include logo-shadow;
 
             transition: all 0.5s ease;
-            transform: translate(-50%,-50%);
+            transform: translate(-50%, -50%);
 
-            img{
+            img {
                 width: 100%;
                 transition: all 0.5s ease;
 
-                &:hover{
-                    transform: scale(1.3);
+                &:hover {
+                    transform: scale(1.2);
 
                     @media #{$width-medium} {
                         transform: scale(1.1);
                     }
-
-                }    
-                
-                @media #{$width-small}{
-                    display:none;
-                }      
-                           
+                }
             }
 
             @media #{$width-medium} {
-                box-shadow:none;
+                box-shadow: none;
                 animation: none;
                 padding: 0;
             }
 
-            @media screen and (max-height: 520px){
-                display:none;
-            }  
-            
+            @media screen and (max-height: 560px) {
+                display: none;
+            }
         }
 
         section {
@@ -83,12 +76,11 @@
             @include section-box-shadow(rgb(65, 94, 255), rgb(121, 168, 255), rgb(161, 194, 255));
             @media #{$width-large} {
                 box-shadow:
-                0 0 5px 1px white,
-                inset  0 0 14px 0 white,
-                inset  -20px 0px 60px 0 rgb(121, 168, 255),
-                inset  20px 0px 60px 0 rgb(121, 168, 255),
+                    0 0 5px 1px white,
+                    inset 0 0 14px 0 white,
+                    inset -20px 0px 60px 0 rgb(121, 168, 255),
+                    inset 20px 0px 60px 0 rgb(121, 168, 255),
             }
-
 
             .box {
                 margin: 0 auto;
@@ -104,70 +96,65 @@
                 // left: 55%, right: 35%;
                 .left_box {
                     width: 55%;
-    
+
                     @media #{$width-large} {
                         width: 100%;
                         display: flex;
                         justify-content: center;
                     }
-            
+
                     img {
                         width: 100%;
                         border-radius: 1rem;
-                        border:none;
-
-                        box-shadow: 
-                        0 0 10px 0 white,
-                        1px 1px 10px 0 rgba(255, 255, 255, 0.7),
-                        -1px -1px 10px 0 rgb(0,0,0);
+                        border: none;
+                        box-shadow:
+                            0 0 10px 0 white,
+                            1px 1px 10px 0 rgba(255, 255, 255, 0.7),
+                            -1px -1px 10px 0 rgb(0, 0, 0);
 
                         @media #{$width-large} {
                             width: 80%;
                         }
-                        
-
                     }
                 }
-    
+
                 .right_box {
                     border: 1px solid rgba(255, 255, 255, 0.7);
                     border-radius: 10px;
-                    box-shadow: 
-                    0 0 10px 1px white,
-                    3px 3px 15px 3px rgba(255, 255, 255, 0.7),
-                    -3px -3px 15px 3px rgb(0,0,0);
+                    box-shadow:
+                        0 0 10px 1px white,
+                        3px 3px 15px 3px rgba(255, 255, 255, 0.7),
+                        -3px -3px 15px 3px rgb(0, 0, 0);
 
                     padding: 1.5rem;
                     background-color: aliceblue;
                     width: 35%;
-    
+
                     @media #{$width-large} {
                         width: 85%;
-                        padding : 1rem;
-                        margin-top:2rem;
-                        box-shadow: 
-                        1px 1px 7px 0 white,
-                        -1px 1px 7px 0 white,
-                        1px 3px 15px 0 rgba(255, 255, 255, 0.7),
-                        1px -3px 15px 0 rgb(0,0,0)
-                        
+                        padding: 1rem;
+                        margin-top: 2rem;
+                        box-shadow:
+                            1px 1px 7px 0 white,
+                            -1px 1px 7px 0 white,
+                            1px 3px 15px 0 rgba(255, 255, 255, 0.7),
+                            1px -3px 15px 0 rgb(0, 0, 0)
                     }
-            
+
                     h1 {
                         font-size: 1.2rem;
                         margin-bottom: 1rem;
                         font-weight: 700;
                     }
-    
+
                     p {
                         font-size: 0.8rem;
                     }
                 }
-    
             }
         }
     }
-    
+
 }
 
 
