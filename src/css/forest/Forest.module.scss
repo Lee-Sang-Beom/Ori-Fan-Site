@@ -73,9 +73,6 @@
                 display:none;
             }  
             
-
-
-            
         }
 
         section {
@@ -104,6 +101,7 @@
                     flex-direction: column;
                 }
 
+                // left: 55%, right: 35%;
                 .left_box {
                     width: 55%;
     
@@ -132,7 +130,6 @@
                 }
     
                 .right_box {
-        
                     border: 1px solid rgba(255, 255, 255, 0.7);
                     border-radius: 10px;
                     box-shadow: 

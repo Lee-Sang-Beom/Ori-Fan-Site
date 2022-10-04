@@ -64,6 +64,7 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
             inset  21px 21px 60px 0 white;
 }
 
+// inset, animation을 포함한 믹스인
 @mixin ball($shadow-color){
     box-shadow: 
     0 0 20px 0 white,
@@ -110,6 +111,7 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
     
 }
 
+// forest, wisp 페이지에서 사용하는 section별 이미지
 @mixin section_img($w, $h, $name){
     width: $w;
     height: $h;
