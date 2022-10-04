@@ -78,8 +78,8 @@
                 box-shadow:
                     0 0 5px 1px white,
                     inset 0 0 14px 0 white,
-                    inset -20px 0px 60px 0 rgb(121, 168, 255),
-                    inset 20px 0px 60px 0 rgb(121, 168, 255),
+                    inset -10px 0px 30px 0 rgb(121, 168, 255),
+                    inset 10px 0px 30px 0 rgb(121, 168, 255),
             }
 
             .box {
@@ -172,17 +172,29 @@
 }
 
 .image3 {
-    @include section_img(100%, 100vh, "tree");
+    @include section_img(100%, 100vh, "adventure_start");
 }
 
 .image4 {
-    @include section_img(100%, 100vh, "wind");
+    @include section_img(100%, 100vh, "meet_shine");
 }
 
 .image5 {
-    @include section_img(100%, 100vh, "mountain");
+    @include section_img(100%, 100vh, "gumo");
 }
 
 .image6 {
-    @include section_img(100%, 100vh, "forest_end");
+    @include section_img(100%, 100vh, "tree");
+}
+
+.image7 {
+    @include section_img(100%, 100vh, "smoke");
+}
+
+.image8 {
+    @include section_img(100%, 100vh, "wind");
+}
+
+.image9 {
+    @include section_img(100%, 100vh, "woe");
 }

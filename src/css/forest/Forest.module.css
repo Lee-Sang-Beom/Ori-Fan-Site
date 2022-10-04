@@ -92,7 +92,7 @@
 }
 @media screen and (max-width: 1024px) {
   .container .site_wrap section {
-    box-shadow: 0 0 5px 1px white, inset 0 0 14px 0 white, inset -20px 0px 60px 0 rgb(121, 168, 255), inset 20px 0px 60px 0 rgb(121, 168, 255);
+    box-shadow: 0 0 5px 1px white, inset 0 0 14px 0 white, inset -10px 0px 30px 0 rgb(121, 168, 255), inset 10px 0px 30px 0 rgb(121, 168, 255);
   }
 }
 .container .site_wrap section .box {
@@ -181,7 +181,7 @@
 .image3 {
   width: 100%;
   height: 100vh;
-  background: url(../../img/tree.jpg) no-repeat center;
+  background: url(../../img/adventure_start.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -189,7 +189,7 @@
 .image4 {
   width: 100%;
   height: 100vh;
-  background: url(../../img/wind.jpg) no-repeat center;
+  background: url(../../img/meet_shine.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -197,7 +197,7 @@
 .image5 {
   width: 100%;
   height: 100vh;
-  background: url(../../img/mountain.jpg) no-repeat center;
+  background: url(../../img/gumo.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -205,7 +205,31 @@
 .image6 {
   width: 100%;
   height: 100vh;
-  background: url(../../img/forest_end.jpg) no-repeat center;
+  background: url(../../img/tree.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.image7 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/smoke.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.image8 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/wind.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.image9 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/woe.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
 }/*# sourceMappingURL=Forest.module.css.map */
