@@ -160,23 +160,23 @@
 
 
 .image0 {
-    @include section_img(192px, 192px, "top_icon");
+    @include section_img(192px, 192px, "topIcon");
 }
 
 .image1 {
-    @include section_img(100%, 100vh, "forest_start");
+    @include section_img(100%, 100vh, "forestStart");
 }
 
 .image2 {
-    @include section_img(100%, 100vh, "dead_forest");
+    @include section_img(100%, 100vh, "deadForest");
 }
 
 .image3 {
-    @include section_img(100%, 100vh, "adventure_start");
+    @include section_img(100%, 100vh, "adventureStart");
 }
 
 .image4 {
-    @include section_img(100%, 100vh, "meet_shine");
+    @include section_img(100%, 100vh, "meetShine");
 }
 
 .image5 {
