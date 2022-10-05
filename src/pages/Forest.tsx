@@ -5,6 +5,7 @@ import Section_content from "../Component/section_content";
 
 // img
 import forestStart from "../img/forestStart.jpg";
+import peaceful from "../img/peaceful.jpg";
 import deadForest from "../img/deadForest.jpg";
 import adventureStart from "../img/adventureStart.jpg";
 import meetShine from "../img/meetShine.jpg";
@@ -36,15 +37,26 @@ function Forest() {
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={forestStart}
-            title="시작"
-            text="니벨 숲의 어느 폭풍우 치는 밤, 정령 버드나무로부터 잎사귀가 떨어집니다. 
-            근처에 있던 나루는 이 모습을 보고 잎사귀가 날아간 쪽으로 향하게 되고, 잎사귀로부터 태어난 정령을 발견합니다. 
-            나루는 정령에게 Ori라는 이름을 붙여주고, 이 만남을 시작으로 둘은 함께 생활하기 시작합니다."
+            title="만남"
+            text="니벨(Nibel) 숲의 어느 폭풍우 치는 밤, 정령 버드나무로부터 잎사귀가 떨어집니다. 
+            근처에 있던 나루는 이 모습을 보고 잎사귀가 날아간 쪽으로 향하게 되고, 잎사귀로부터 태어난 정령을 발견하고, 
+            '나루'는 정령에게 'Ori'라는 이름을 붙여줍니다."
           />
         </section>
 
         {/* 2 */}
         <div className={styles.image2}></div>
+        <section data-scroll className={styles.content}>
+          <Section_content
+            imgsrc={peaceful}
+            title="시작"
+            text="폭풍우 치는 밤의 첫 만남을 시작으로, 이 둘은 함께 생활하기 시작합니다. 
+            하지만 정령 나무가 Ori를 찾기 시작하면서, 이 평화에는 금이가기 시작합니다."
+          />
+        </section>
+
+        {/* 3 */}
+        <div className={styles.image3}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={deadForest}
@@ -54,8 +66,8 @@ function Forest() {
           />
         </section>
 
-        {/* 3 */}
-        <div className={styles.image3}></div>
+        {/* 4 */}
+        <div className={styles.image4}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={adventureStart}
@@ -65,32 +77,31 @@ function Forest() {
           />
         </section>
 
-        {/* 4 */}
-        <div className={styles.image4}></div>
+        {/* 5 */}
+        <div className={styles.image5}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={meetShine}
             title="잃어버린 빛"
             text="정령 버드나무의 마지막 빛으로 깨어난 Ori는 잃어버렸던 힘의 원천 '세인'을 만납니다. 
-            '세인'을 통해 Ori는 기능을 멈춘 니벨(Nibel)숲의 원소 3개를 다시 가동시켜 숲을 되살릴 수 있음을 알게 됩니다.
-            Ori는 생명을 잃은 니벨(Nibel) 숲을 되살리기 위해 위험한 모험을 시작합니다."
-          />
-        </section>
-
-        {/* 5 */}
-        <div className={styles.image5}></div>
-        <section data-scroll className={styles.content}>
-          <Section_content
-            imgsrc={gumo}
-            title="긴소나무의 열쇠, 수맥"
-            text="숲을 되살리기 위한 첫 번째 원소인 물의 원소는 긴소나무에 존재합니다. 
-            하지만, Ori를 경계하던 구모 일족의 구모가 긴소나무의 입구를 열 수 있는 수맥을 가지고 도망가게되고, Ori는 그를 쫓기 시작합니다.
-            이후, 쫓는 과정에서 발생한 어떤 사건 때문에 구모는 Ori에 대한 경계를 풀고 긴소나무의 열쇠인 수맥을 돌려주게 됩니다."
+            세인을 통해 Ori는 기능을 멈춘 니벨(Nibel)숲의 원소 3개를 다시 가동시켜 숲을 되살릴 수 있음을 알게 됩니다."
           />
         </section>
 
         {/* 6 */}
         <div className={styles.image6}></div>
+        <section data-scroll className={styles.content}>
+          <Section_content
+            imgsrc={gumo}
+            title="긴소나무의 열쇠, 수맥"
+            text="숲을 되살리기 위한 첫 번째 원소인 물의 원소는 긴소나무에 존재합니다. 
+            하지만, Ori를 경계하던 구모 일족의 '구모'는 긴소나무의 입구를 열 수 있는 수맥을 갖고 도망가기 시작합니다. 
+            이후 구모는 추격 중 발생한 '어떤 일' 때문에, Ori에 대한 경계를 풀고 긴소나무의 열쇠인 수맥을 돌려주게 됩니다."
+          />
+        </section>
+
+        {/* 7 */}
+        <div className={styles.image7}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={tree}
@@ -101,20 +112,20 @@ function Forest() {
           />
         </section>
 
-        {/* 7 */}
-        <div className={styles.image7}></div>
+        {/* 8 */}
+        <div className={styles.image8}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={smoke}
             title="구모의 문장, 안개숲"
             text="숲을 되살리기 위한 두 번째 원소인 바람의 원소는 구모의 고향, 버려진 유적에 존재합니다. 
-            하지만 유적의 문을 열기 위해서는, 안개숲에 있는 구몬의 문장을 얻어야합니다. 
+            하지만 유적의 문을 열기 위해서는, 안개숲에 있는 구몬의 문장을 얻어야 합니다. 
             Ori는 연무로 뒤덮인 안개숲에서 우연히 아추의 횃불을 발견하게 됩니다."
           />
         </section>
 
-        {/* 8 */}
-        <div className={styles.image8}></div>
+        {/* 9 */}
+        <div className={styles.image9}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={wind}
@@ -126,29 +137,29 @@ function Forest() {
           />
         </section>
 
-        {/* 9 */}
-        <div className={styles.image9}></div>
+        {/* 10 */}
+        <div className={styles.image10}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={woe}
             title="태양석, 비애의 산길"
             text="숲을 되살리기 위한 마지막 원소인 불의 원소는 용암으로 뒤덮인 호루산에 존재합니다. 
             호루산의 입구를 열기 위해서는, 비애의 산길 꼭대기에 있는 태양석이 필요합니다. 
-            Ori는 자신을 향한 많은 위협에도 불구하고, 길을 뚫어내 마침내 태양석이 있는 곳까지 올라가게 됩니다."
+            Ori는 매 순간 닥쳐오는 위협에도 불구하고, 마침내 태양석이 있는 꼭대기까지 길을 뚫는 데 성공합니다."
           />
         </section>
 
-        {/* 10 */}
-        <div className={styles.image10}></div>
+        {/* 11 */}
+        <div className={styles.image11}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={recovery}
             title="빛의 그릇과 부활"
-            text="니벨(Nibel) 숲이 황폐화되고, 쓰러진 나루가 있는 동굴로 이동한 구모는, 유적에서 들고 온 빛의 그릇의 힘을 사용하기 시작합니다.
-            빛의 그릇은 가지고 있던 모든 힘을 내뿜어 나루를 다시 부활시키고 사라지게 됩니다. 구모는 다시 생명을 얻어 깨어난 나루를 Ori가 향하는 마지막 장소인 호루산으로 안내합니다."
+            text="쓰러진 나루가 있는 동굴로 이동한 구모는 유적에서 가져온 빛의 그릇의 힘을 사용하기 시작했고,
+            빛의 그릇은 가지고 있던 모든 힘을 내뿜어 나루를 다시 부활시키는 데 성공합니다.
+            그리고, 구모는 깨어난 나루를 Ori가 향하는 마지막 장소인 호루산으로 안내합니다."
           />
         </section>
-
       </div>
     </div>
   );

@@ -168,37 +168,41 @@
 }
 
 .image2 {
-    @include section_img(100%, 100vh, "deadForest");
+    @include section_img(100%, 100vh, "peaceful");
 }
 
 .image3 {
-    @include section_img(100%, 100vh, "adventureStart");
+    @include section_img(100%, 100vh, "deadForest");
 }
 
 .image4 {
-    @include section_img(100%, 100vh, "meetShine");
+    @include section_img(100%, 100vh, "adventureStart");
 }
 
 .image5 {
-    @include section_img(100%, 100vh, "gumo");
+    @include section_img(100%, 100vh, "meetShine");
 }
 
 .image6 {
-    @include section_img(100%, 100vh, "tree");
+    @include section_img(100%, 100vh, "gumo");
 }
 
 .image7 {
-    @include section_img(100%, 100vh, "smoke");
+    @include section_img(100%, 100vh, "tree");
 }
 
 .image8 {
-    @include section_img(100%, 100vh, "wind");
+    @include section_img(100%, 100vh, "smoke");
 }
 
 .image9 {
-    @include section_img(100%, 100vh, "woe");
+    @include section_img(100%, 100vh, "wind");
 }
 
 .image10 {
+    @include section_img(100%, 100vh, "woe");
+}
+
+.image11 {
     @include section_img(100%, 100vh, "recovery");
 }
