@@ -13,6 +13,7 @@ import tree from "../img/tree.jpg";
 import smoke from "../img/smoke.jpg";
 import wind from "../img/wind.jpg";
 import woe from "../img/woe.jpg";
+import recovery from "../img/recovery.jpg";
 import mountain from "../img/mountain.jpg";
 import topIcon from "../img/topIcon.jpg";
 import forestEnd from "../img/forestEnd.jpg";
@@ -118,9 +119,9 @@ function Forest() {
           <Section_content
             imgsrc={wind}
             title="바람의 원소"
-            text="버려진 유적에 들어온 Ori는 빛의 그릇을 들고 폐허의 중심으로 이동하기 시작하고,
+            text="버려진 유적에 들어온 Ori는 빛의 그릇을 들고 유적의 중심으로 이동하기 시작하고,
              구모 또한 Ori의 뒤를 따라 버려진 유적 안으로 이동하게 됩니다.
-             Ori가 빛의 그릇을 폐허의 중심에 놓으면서, 작동을 멈췄던 유적은 다시 가동되고, 바람의 원소는 힘을 되찾게 됩니다.
+             Ori가 빛의 그릇을 유적의 중심에 놓으면서, 작동을 멈췄던 유적은 다시 가동되고, 바람의 원소는 힘을 되찾게 됩니다.
              하지만 Ori와 세인의 이야기를 듣던 구모는 Ori를 위하여 무언가를 행동으로 옮기기로 결심하게 되고, 그 여파로 유적은 갑자기 붕괴되기 시작합니다."
           />
         </section>
@@ -137,8 +138,17 @@ function Forest() {
           />
         </section>
 
+        {/* 10 */}
+        <div className={styles.image10}></div>
+        <section data-scroll className={styles.content}>
+          <Section_content
+            imgsrc={recovery}
+            title="빛의 그릇과 부활"
+            text="니벨(Nibel) 숲이 황폐화되고, 쓰러진 나루가 있는 동굴로 이동한 구모는, 유적에서 들고 온 빛의 그릇의 힘을 사용하기 시작합니다.
+            빛의 그릇은 가지고 있던 모든 힘을 내뿜어 나루를 다시 부활시키고 사라지게 됩니다. 구모는 다시 생명을 얻어 깨어난 나루를 Ori가 향하는 마지막 장소인 호루산으로 안내합니다."
+          />
+        </section>
 
-       
       </div>
     </div>
   );

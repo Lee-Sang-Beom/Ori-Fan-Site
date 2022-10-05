@@ -198,3 +198,7 @@
 .image9 {
     @include section_img(100%, 100vh, "woe");
 }
+
+.image10 {
+    @include section_img(100%, 100vh, "recovery");
+}
