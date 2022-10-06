@@ -3,6 +3,10 @@ import ScrollOut from "scroll-out";
 import { useEffect } from "react";
 import Section_content from "../Component/section_content";
 
+// video
+import start from "../video/forest_src/start.mp4";
+
+
 // img
 import topIcon from "../img/forest_src/topIcon.jpg";
 
@@ -36,7 +40,9 @@ function Forest() {
         </div>
 
         {/* 1 */}
-        <div className={styles.image1}></div>
+        <video autoPlay loop muted className={styles.background}>
+          <source src={start} type="video/mp4" />
+        </video>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={forestStart}
@@ -48,7 +54,8 @@ function Forest() {
         </section>
 
         {/* 2 */}
-        <div className={styles.image2}></div>
+
+        <div className={styles.image1}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={peaceful}
@@ -59,7 +66,7 @@ function Forest() {
         </section>
 
         {/* 3 */}
-        <div className={styles.image3}></div>
+        <div className={styles.image2}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={deadForest}
@@ -70,7 +77,7 @@ function Forest() {
         </section>
 
         {/* 4 */}
-        <div className={styles.image4}></div>
+        <div className={styles.image3}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={adventureStart}
@@ -81,7 +88,7 @@ function Forest() {
         </section>
 
         {/* 5 */}
-        <div className={styles.image5}></div>
+        <div className={styles.image4}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={meetShine}
@@ -92,7 +99,7 @@ function Forest() {
         </section>
 
         {/* 6 */}
-        <div className={styles.image6}></div>
+        <div className={styles.image5}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={gumo}
@@ -104,7 +111,7 @@ function Forest() {
         </section>
 
         {/* 7 */}
-        <div className={styles.image7}></div>
+        <div className={styles.image6}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={tree}
@@ -116,7 +123,7 @@ function Forest() {
         </section>
 
         {/* 8 */}
-        <div className={styles.image8}></div>
+        <div className={styles.image7}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={smoke}
@@ -128,7 +135,7 @@ function Forest() {
         </section>
 
         {/* 9 */}
-        <div className={styles.image9}></div>
+        <div className={styles.image8}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={wind}
@@ -141,7 +148,7 @@ function Forest() {
         </section>
 
         {/* 10 */}
-        <div className={styles.image10}></div>
+        <div className={styles.image9}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={woe}
@@ -153,7 +160,7 @@ function Forest() {
         </section>
 
         {/* 11 */}
-        <div className={styles.image11}></div>
+        <div className={styles.image10}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={recovery}
@@ -165,7 +172,7 @@ function Forest() {
         </section>
 
         {/* 12 */}
-        <div className={styles.image12}></div>
+        <div className={styles.image11}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={mountain}
@@ -176,7 +183,7 @@ function Forest() {
         </section>
 
         {/* 13 */}
-        <div className={styles.image13}></div>
+        <div className={styles.image12}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={kuro}
@@ -187,7 +194,7 @@ function Forest() {
         </section>
 
         {/* 14 */}
-        <div className={styles.image14}></div>
+        <div className={styles.image13}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={kuro2}
@@ -199,7 +206,7 @@ function Forest() {
         </section>
 
         {/* 15 */}
-        <div className={styles.image15}></div>
+        <div className={styles.image14}></div>
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={forestEnd}

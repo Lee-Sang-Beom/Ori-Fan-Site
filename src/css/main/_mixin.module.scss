@@ -14,7 +14,7 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
     height: $h;
 }
 
-// 페이지 별 메인 로고 배경 shadow 정의 : forest, wisp
+// 페이지 별 메인 로고 배경 shadow 정의
 @mixin logo-shadow {
     box-shadow:
         0 1px 1.5rem 0 #000000,
