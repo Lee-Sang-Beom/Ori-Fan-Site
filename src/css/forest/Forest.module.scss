@@ -206,3 +206,7 @@
 .image11 {
     @include section_img(100%, 100vh, "recovery");
 }
+
+.image12{
+    @include section_img(100%, 100vh, "mountain");
+}

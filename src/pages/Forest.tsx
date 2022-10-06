@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import Section_content from "../Component/section_content";
 
 // img
+import topIcon from "../img/topIcon.jpg";
+
 import forestStart from "../img/forestStart.jpg";
 import peaceful from "../img/peaceful.jpg";
 import deadForest from "../img/deadForest.jpg";
@@ -16,7 +18,6 @@ import wind from "../img/wind.jpg";
 import woe from "../img/woe.jpg";
 import recovery from "../img/recovery.jpg";
 import mountain from "../img/mountain.jpg";
-import topIcon from "../img/topIcon.jpg";
 import forestEnd from "../img/forestEnd.jpg";
 
 
@@ -158,6 +159,17 @@ function Forest() {
             text="쓰러진 나루가 있는 동굴로 이동한 구모는 유적에서 가져온 빛의 그릇의 힘을 사용하기 시작했고,
             빛의 그릇은 가지고 있던 모든 힘을 내뿜어 나루를 다시 부활시키는 데 성공합니다.
             그리고, 구모는 깨어난 나루를 Ori가 향하는 마지막 장소인 호루산으로 안내합니다."
+          />
+        </section>
+
+        {/* 12 */}
+        <div className={styles.image12}></div>
+        <section data-scroll className={styles.content}>
+          <Section_content
+            imgsrc={mountain}
+            title="불의 원소"
+            text="태양석을 사용해 호루산에 들어간 Ori는, 불의 원소로 향하는 길을 뒤덮고 있는 용암을 보게 됩니다.
+            Ori는 입구를 막고 있는 용암의 높이를 낮추기 위해, 세인과 함께 용암이 흐르는 여덟 곳의 공간을 바위로 막아버립니다."
           />
         </section>
       </div>
