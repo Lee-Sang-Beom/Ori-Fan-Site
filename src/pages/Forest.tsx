@@ -6,7 +6,6 @@ import Section_content from "../Component/section_content";
 // video
 import start from "../video/forest_src/start.mp4";
 
-
 // img
 import topIcon from "../img/forest_src/topIcon.jpg";
 
