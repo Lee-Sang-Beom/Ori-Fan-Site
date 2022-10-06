@@ -41,6 +41,7 @@
             // 페이지 별 메인 로고 뒷배경 shadow
             @include logo-shadow;
 
+            // forest page: set main logo position, scale animation
             transition: all 0.5s ease;
             transform: translate(-50%, -50%);
 
@@ -73,7 +74,9 @@
             padding: 7rem 0;
             border: none;
 
+            // section영역 box shadow
             @include section-box-shadow(rgb(65, 94, 255), rgb(121, 168, 255), rgb(161, 194, 255));
+            
             @media #{$width-large} {
                 box-shadow:
                     0 0 5px 1px white,
@@ -155,7 +158,6 @@
             }
         }
     }
-
 }
 
 
@@ -209,4 +211,16 @@
 
 .image12{
     @include section_img(100%, 100vh, "mountain");
+}
+
+.image13{
+    @include section_img(100%, 100vh, "kuro");
+}
+
+.image14{
+    @include section_img(100%, 100vh, "kuro2");
+}
+
+.image15{
+    @include section_img(100%, 100vh, "forestEnd");
 }

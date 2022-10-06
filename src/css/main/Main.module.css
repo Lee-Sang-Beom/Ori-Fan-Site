@@ -158,7 +158,7 @@
   }
 }
 .nav__wrap .nav .nav__right_wisp img {
-  border-radius: 10%;
+  border-radius: 25%;
   position: absolute;
   width: 100%;
   top: 50%;
@@ -184,7 +184,7 @@
   .nav__wrap .nav .nav__right_wisp {
     width: 85%;
     height: 35%;
-    margin-right: 0%;
+    margin-left: 0%;
     margin: 1rem 0;
   }
 }

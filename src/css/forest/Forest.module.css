@@ -248,4 +248,36 @@
   background: url(../../img/recovery.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.image12 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/mountain.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.image13 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/kuro.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.image14 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/kuro2.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.image15 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/forestEnd.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
 }/*# sourceMappingURL=Forest.module.css.map */

@@ -18,6 +18,8 @@ import wind from "../img/wind.jpg";
 import woe from "../img/woe.jpg";
 import recovery from "../img/recovery.jpg";
 import mountain from "../img/mountain.jpg";
+import kuro from "../img/kuro.jpg";
+import kuro2 from "../img/kuro2.jpg";
 import forestEnd from "../img/forestEnd.jpg";
 
 
@@ -40,7 +42,7 @@ function Forest() {
             imgsrc={forestStart}
             title="만남"
             text="니벨(Nibel) 숲의 어느 폭풍우 치는 밤, 정령 버드나무로부터 잎사귀가 떨어집니다. 
-            근처에 있던 나루는 이 모습을 보고 잎사귀가 날아간 쪽으로 향하게 되고, 잎사귀로부터 태어난 정령을 발견하고, 
+            근처에 있던 나루는 이 모습을 보고 잎사귀가 날아간 쪽으로 향하게 되고, 잎사귀로부터 태어난 정령을 발견합니다. 
             '나루'는 정령에게 'Ori'라는 이름을 붙여줍니다."
           />
         </section>
@@ -50,7 +52,7 @@ function Forest() {
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={peaceful}
-            title="시작"
+            title="평화"
             text="폭풍우 치는 밤의 첫 만남을 시작으로, 이 둘은 함께 생활하기 시작합니다. 
             하지만 정령 나무가 Ori를 찾기 시작하면서, 이 평화에는 금이가기 시작합니다."
           />
@@ -72,7 +74,7 @@ function Forest() {
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={adventureStart}
-            title="마지막 빛"
+            title="마지막 힘"
             text="나루가 쓰러진 후, 숲이 황폐화된 원인을 찾기 위해 길을 떠난 Ori도 결국 생명의 힘이 다해 쓰러집니다. 
             하지만, 정령 버드나무는 마지막 남은 힘을 쏟아 Ori에게 생명을 불어넣습니다."
           />
@@ -84,7 +86,7 @@ function Forest() {
           <Section_content
             imgsrc={meetShine}
             title="잃어버린 빛"
-            text="정령 버드나무의 마지막 빛으로 깨어난 Ori는 잃어버렸던 힘의 원천 '세인'을 만납니다. 
+            text="정령 버드나무의 마지막 빛으로 깨어난 Ori는 정령 버드나무가 잃어버린 힘의 원천 '세인'을 만납니다. 
             세인을 통해 Ori는 기능을 멈춘 니벨(Nibel)숲의 원소 3개를 다시 가동시켜 숲을 되살릴 수 있음을 알게 됩니다."
           />
         </section>
@@ -94,7 +96,7 @@ function Forest() {
         <section data-scroll className={styles.content}>
           <Section_content
             imgsrc={gumo}
-            title="긴소나무의 열쇠, 수맥"
+            title="긴소나무의 수맥"
             text="숲을 되살리기 위한 첫 번째 원소인 물의 원소는 긴소나무에 존재합니다. 
             하지만, Ori를 경계하던 구모 일족의 '구모'는 긴소나무의 입구를 열 수 있는 수맥을 갖고 도망가기 시작합니다. 
             이후 구모는 추격 중 발생한 '어떤 일' 때문에, Ori에 대한 경계를 풀고 긴소나무의 열쇠인 수맥을 돌려주게 됩니다."
@@ -168,8 +170,43 @@ function Forest() {
           <Section_content
             imgsrc={mountain}
             title="불의 원소"
-            text="태양석을 사용해 호루산에 들어간 Ori는, 불의 원소로 향하는 길을 뒤덮고 있는 용암을 보게 됩니다.
-            Ori는 입구를 막고 있는 용암의 높이를 낮추기 위해, 세인과 함께 용암이 흐르는 여덟 곳의 공간을 바위로 막아버립니다."
+            text="태양석을 사용해 호루산에 들어간 Ori는, 불의 원소로 향하는 길을 뒤덮고 있는 용암을 발견하게 됩니다.
+            Ori는 불의 원소가 있는 공간의 입구를 막고 있는 용암의 높이를 낮추기 위해, 세인과 함께 용암이 흐르는 여덟 곳의 공간을 바위로 막아버립니다."
+          />
+        </section>
+
+        {/* 13 */}
+        <div className={styles.image13}></div>
+        <section data-scroll className={styles.content}>
+          <Section_content
+            imgsrc={kuro}
+            title="빛을 쫓는 어둠"
+            text="마지막으로 불의 원소를 다시 가동시킨 Ori는, 빛을 증오하는 '쿠로'의 공격을 받게 됩니다. 
+            빛을 꺼뜨리려는 쿠로의 공격 속에서 Ori는 호루산을 탈출하기 시작합니다."
+          />
+        </section>
+
+        {/* 14 */}
+        <div className={styles.image14}></div>
+        <section data-scroll className={styles.content}>
+          <Section_content
+            imgsrc={kuro2}
+            title="증오와 용서"
+            text="빛을 증오하는 쿠로의 의지는 마침내 Ori를 낚아챘고, Ori를 죽음으로 몰아갑니다. 
+            하지만, 뒤이어 나타난 나루와 Ori의 모습에 쿠로는 자신의 과거를 투영하며 그들을 용서하게 됩니다. 
+            그리고 쿠로는 불타는 숲에서 자신이 지켜야 할 마지막 생명을 위해, 어떠한 결정을 하게 됩니다."
+          />
+        </section>
+
+        {/* 15 */}
+        <div className={styles.image15}></div>
+        <section data-scroll className={styles.content}>
+          <Section_content
+            imgsrc={forestEnd}
+            title="되살아난 니벨(Nibel), 그리고 새로운 가족"
+            text="Ori의 긴 노력 끝에, 니벨(Nibel) 숲은 다시 생명을 얻어 원래 모습으로 돌아오는 데 성공합니다.  
+            정령나무는 제 힘을 되찾아 밝게 빛났고, 구모는 나루와 Ori의 가족으로 들어와 함께 살게 됩니다. 
+            마지막으로 나루가 새로운 생명의 탄생을 발견하게 되면서, 이야기는 마무리됩니다."
           />
         </section>
       </div>

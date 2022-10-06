@@ -94,9 +94,8 @@
                 @include ball(rgb(0, 0, 0));
             }
 
-
             img {
-                border-radius: 10%;
+                border-radius: 25%;
                 position: absolute;
                 width: 100%;
                 top: 50%;
@@ -114,12 +113,11 @@
 
             @media #{$width-medium} {
                 height: 25%;
-
             }
 
             @media #{$width-small} {
                 @include setBoxSize(35%, 85%);
-                margin-right: 0%;
+                margin-left: 0%;
                 margin: 1rem 0;
             }
 
