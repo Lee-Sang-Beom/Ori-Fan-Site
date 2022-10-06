@@ -4,23 +4,23 @@ import { useEffect } from "react";
 import Section_content from "../Component/section_content";
 
 // img
-import topIcon from "../img/topIcon.jpg";
+import topIcon from "../img/forest_src/topIcon.jpg";
 
-import forestStart from "../img/forestStart.jpg";
-import peaceful from "../img/peaceful.jpg";
-import deadForest from "../img/deadForest.jpg";
-import adventureStart from "../img/adventureStart.jpg";
-import meetShine from "../img/meetShine.jpg";
-import gumo from "../img/gumo.jpg";
-import tree from "../img/tree.jpg";
-import smoke from "../img/smoke.jpg";
-import wind from "../img/wind.jpg";
-import woe from "../img/woe.jpg";
-import recovery from "../img/recovery.jpg";
-import mountain from "../img/mountain.jpg";
-import kuro from "../img/kuro.jpg";
-import kuro2 from "../img/kuro2.jpg";
-import forestEnd from "../img/forestEnd.jpg";
+import forestStart from "../img/forest_src/forestStart.jpg";
+import peaceful from "../img/forest_src/peaceful.jpg";
+import deadForest from "../img/forest_src/deadForest.jpg";
+import adventureStart from "../img/forest_src/adventureStart.jpg";
+import meetShine from "../img/forest_src/meetShine.jpg";
+import gumo from "../img/forest_src/gumo.jpg";
+import tree from "../img/forest_src/tree.jpg";
+import smoke from "../img/forest_src/smoke.jpg";
+import wind from "../img/forest_src/wind.jpg";
+import woe from "../img/forest_src/woe.jpg";
+import recovery from "../img/forest_src/recovery.jpg";
+import mountain from "../img/forest_src/mountain.jpg";
+import kuro from "../img/forest_src/kuro.jpg";
+import kuro2 from "../img/forest_src/kuro2.jpg";
+import forestEnd from "../img/forest_src/forestEnd.jpg";
 
 
 function Forest() {

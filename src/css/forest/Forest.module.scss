@@ -45,6 +45,17 @@
             transition: all 0.5s ease;
             transform: translate(-50%, -50%);
 
+            
+            @media #{$width-medium} {
+                box-shadow: none;
+                animation: none;
+                padding: 0;
+            }
+
+            @media screen and (max-height: 560px) {
+                display: none;
+            }
+
             img {
                 width: 100%;
                 transition: all 0.5s ease;
@@ -58,15 +69,6 @@
                 }
             }
 
-            @media #{$width-medium} {
-                box-shadow: none;
-                animation: none;
-                padding: 0;
-            }
-
-            @media screen and (max-height: 560px) {
-                display: none;
-            }
         }
 
         section {
@@ -162,65 +164,65 @@
 
 
 .image0 {
-    @include section_img(192px, 192px, "topIcon");
+    @include section_img("topIcon", 192px, 192px,);
 }
 
 .image1 {
-    @include section_img(100%, 100vh, "forestStart");
+    @include section_img("forestStart");
 }
 
 .image2 {
-    @include section_img(100%, 100vh, "peaceful");
+    @include section_img("peaceful");
 }
 
 .image3 {
-    @include section_img(100%, 100vh, "deadForest");
+    @include section_img("deadForest");
 }
 
 .image4 {
-    @include section_img(100%, 100vh, "adventureStart");
+    @include section_img("adventureStart");
 }
 
 .image5 {
-    @include section_img(100%, 100vh, "meetShine");
+    @include section_img("meetShine");
 }
 
 .image6 {
-    @include section_img(100%, 100vh, "gumo");
+    @include section_img("gumo");
 }
 
 .image7 {
-    @include section_img(100%, 100vh, "tree");
+    @include section_img("tree");
 }
 
 .image8 {
-    @include section_img(100%, 100vh, "smoke");
+    @include section_img("smoke");
 }
 
 .image9 {
-    @include section_img(100%, 100vh, "wind");
+    @include section_img("wind");
 }
 
 .image10 {
-    @include section_img(100%, 100vh, "woe");
+    @include section_img("woe");
 }
 
 .image11 {
-    @include section_img(100%, 100vh, "recovery");
+    @include section_img("recovery");
 }
 
 .image12{
-    @include section_img(100%, 100vh, "mountain");
+    @include section_img("mountain");
 }
 
 .image13{
-    @include section_img(100%, 100vh, "kuro");
+    @include section_img("kuro");
 }
 
 .image14{
-    @include section_img(100%, 100vh, "kuro2");
+    @include section_img("kuro2");
 }
 
 .image15{
-    @include section_img(100%, 100vh, "forestEnd");
+    @include section_img("forestEnd");
 }

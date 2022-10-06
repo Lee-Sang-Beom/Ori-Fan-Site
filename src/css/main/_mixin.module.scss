@@ -115,10 +115,10 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
 }
 
 // forest, wisp 페이지에서 사용하는 section별 img
-@mixin section_img($w, $h, $name) {
+@mixin section_img($name, $w:100%, $h:100vh) {
     width: $w;
     height: $h;
-    background: url(../../img/#{$name}.jpg) no-repeat center;
+    background: url(../../img/forest_src/#{$name}.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
 }

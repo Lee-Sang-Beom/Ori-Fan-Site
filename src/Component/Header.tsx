@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "../css/main/Main.module.css";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-import Orilogo from "../img/Ori-logo.png";
+import Orilogo from "../img/OriLogo.png";
 
 export default function Header() {
   return (
