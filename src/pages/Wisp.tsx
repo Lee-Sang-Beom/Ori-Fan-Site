@@ -1,4 +1,4 @@
-import styles from "../css/forest/Forest.module.css";
+import styles from "../css/wisp/Wisp.module.css";
 import ScrollOut from "scroll-out";
 import { useEffect } from "react";
 import SectionContent from "../Component/section_content";
