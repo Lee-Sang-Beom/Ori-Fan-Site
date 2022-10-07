@@ -34,7 +34,7 @@
   z-index: 2;
   top: calc(50% + 70px);
   left: 50%;
-  box-shadow: 0 1px 1.5rem 0 #000000, inset 0 2px 0.5rem 0 #b6b6b6, inset 0 -2px 0.5rem 0 #b6b6b6;
+  box-shadow: 0 1px 1.5rem 0 #000000, inset 0 2px 0.5rem 0 #e2e2e2, inset 0 -2px 0.5rem 0 #e2e2e2;
   -webkit-animation: glow 1.5s linear infinite alternate;
           animation: glow 1.5s linear infinite alternate;
   transition: all 0.5s ease;
@@ -43,21 +43,21 @@
 @-webkit-keyframes glow {
   from {
     /*애니메이션이 시작될 때 요소에게 지정할 스타일*/
-    box-shadow: 0 0 20px 0 white, 10px 10px 20px 10px #b6b6b6, -10px -10px 20px 0 rgb(0, 0, 0), inset 0 0 14px 0 white, inset -40px -30px 60px 0 #b6b6b6, inset -40px -30px 70px 0 rgb(48, 48, 48), inset -40px -30px 100px 0 #1dddff;
+    box-shadow: 0 0 20px 0 white, 10px 10px 20px 10px #e2e2e2, -10px -10px 20px 0 rgb(0, 0, 0), inset 0 0 14px 0 white, inset -40px -30px 60px 0 #e2e2e2, inset -40px -30px 70px 0 rgb(104, 104, 104), inset -40px -30px 100px 0 #1dddff;
   }
   to {
     /*애니메이션이 종료될 때 요소에게 지정할 스타일*/
-    box-shadow: 0 0 20px 0 white, 10px 10px 20px 10px rgb(0, 0, 0), -10px -10px 20px 0 #b6b6b6, inset 0 0 14px 0 white, inset -40px -30px 60px 0 rgb(0, 0, 0), inset -40px -30px 70px 0 rgb(48, 48, 48), inset -40px -30px 100px 0 #1dddff;
+    box-shadow: 0 0 20px 0 #1dddff, 10px 10px 20px 10px rgb(0, 0, 0), -10px -10px 20px 0 #e2e2e2, inset 0 0 14px 0 white, inset -40px -30px 60px 0 rgb(0, 0, 0), inset -40px -30px 70px 0 rgb(104, 104, 104), inset -40px -30px 100px 0 #1dddff;
   }
 }
 @keyframes glow {
   from {
     /*애니메이션이 시작될 때 요소에게 지정할 스타일*/
-    box-shadow: 0 0 20px 0 white, 10px 10px 20px 10px #b6b6b6, -10px -10px 20px 0 rgb(0, 0, 0), inset 0 0 14px 0 white, inset -40px -30px 60px 0 #b6b6b6, inset -40px -30px 70px 0 rgb(48, 48, 48), inset -40px -30px 100px 0 #1dddff;
+    box-shadow: 0 0 20px 0 white, 10px 10px 20px 10px #e2e2e2, -10px -10px 20px 0 rgb(0, 0, 0), inset 0 0 14px 0 white, inset -40px -30px 60px 0 #e2e2e2, inset -40px -30px 70px 0 rgb(104, 104, 104), inset -40px -30px 100px 0 #1dddff;
   }
   to {
     /*애니메이션이 종료될 때 요소에게 지정할 스타일*/
-    box-shadow: 0 0 20px 0 white, 10px 10px 20px 10px rgb(0, 0, 0), -10px -10px 20px 0 #b6b6b6, inset 0 0 14px 0 white, inset -40px -30px 60px 0 rgb(0, 0, 0), inset -40px -30px 70px 0 rgb(48, 48, 48), inset -40px -30px 100px 0 #1dddff;
+    box-shadow: 0 0 20px 0 #1dddff, 10px 10px 20px 10px rgb(0, 0, 0), -10px -10px 20px 0 #e2e2e2, inset 0 0 14px 0 white, inset -40px -30px 60px 0 rgb(0, 0, 0), inset -40px -30px 70px 0 rgb(104, 104, 104), inset -40px -30px 100px 0 #1dddff;
   }
 }
 @media screen and (max-width: 768px) {

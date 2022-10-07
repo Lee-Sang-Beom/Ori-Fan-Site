@@ -4,10 +4,10 @@ import { useEffect } from "react";
 import SectionContent from "../Component/section_content";
 
 // video
-import start from "../video/forest_src/start.mp4";
+import start from "../video/wisp_src/start.mp4";
 
 // img
-import topIcon from "../img/forest_src/topIcon.jpg";
+import topIcon from "../img/wisp_src/topIcon.jpg";
 
 import forestStart from "../img/forest_src/forestStart.jpg";
 import peaceful from "../img/forest_src/peaceful.jpg";
@@ -26,7 +26,7 @@ import kuro2 from "../img/forest_src/kuro2.jpg";
 import forestEnd from "../img/forest_src/forestEnd.jpg";
 
 
-function Wisp() {
+function Forest() {
   useEffect(() => {
     ScrollOut({});
   }, []);
@@ -34,7 +34,7 @@ function Wisp() {
   return (
     <div className={styles.container}>
       <div className={styles.site_wrap}>
-        <div className={styles.forest_logo}>
+        <div className={styles.wisp_logo}>
           <img src={topIcon} alt="top-icon"/>
         </div>
 
@@ -220,4 +220,4 @@ function Wisp() {
   );
 }
 
-export default Wisp;
+export default Forest;
