@@ -9,12 +9,12 @@ export default function Nav() {
         <div className={styles.nav}>
           <div className={styles.nav__left_forest}>
             <Link to="/ori_forest">
-              <img src={forest_logo} />
+              <img src={forest_logo} alt='forest-logo' />
             </Link>
           </div>
           <div className={styles.nav__right_wisp}>
             <Link to="/ori_wisp">
-              <img src={wisp_logo} />
+              <img src={wisp_logo} alt='wisp-logo'/>
             </Link>
           </div>
         </div>

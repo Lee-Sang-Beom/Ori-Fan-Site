@@ -1,7 +1,7 @@
 import styles from "../css/forest/Forest.module.css";
 import ScrollOut from "scroll-out";
 import { useEffect } from "react";
-import Section_content from "../Component/section_content";
+import SectionContent from "../Component/section_content";
 
 // video
 import start from "../video/forest_src/start.mp4";
@@ -35,7 +35,7 @@ function Forest() {
     <div className={styles.container}>
       <div className={styles.site_wrap}>
         <div className={styles.forest_logo}>
-          <img src={topIcon} />
+          <img src={topIcon} alt="top-icon"/>
         </div>
 
         {/* 1 */}
@@ -43,10 +43,10 @@ function Forest() {
           <source src={start} type="video/mp4" />
         </video>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={forestStart}
             title="만남"
-            text="니벨(Nibel) 숲의 어느 폭풍우 치는 밤, 정령 버드나무로부터 잎사귀가 떨어집니다. 
+            text="니벨(Nibel) 숲의 어느 폭풍우 치는 밤, 정령 나무로부터 잎사귀가 떨어집니다. 
             근처에 있던 나루는 이 모습을 보고 잎사귀가 날아간 쪽으로 향하게 되고, 잎사귀로부터 태어난 정령을 발견합니다. 
             '나루'는 정령에게 'Ori'라는 이름을 붙여줍니다."
           />
@@ -56,7 +56,7 @@ function Forest() {
 
         <div className={styles.image1}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={peaceful}
             title="평화"
             text="폭풍우 치는 밤의 첫 만남을 시작으로, 이 둘은 함께 생활하기 시작합니다. 
@@ -67,32 +67,32 @@ function Forest() {
         {/* 3 */}
         <div className={styles.image2}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={deadForest}
             title="생명을 잃은 숲"
-            text="Ori를 찾기위해 빛을 발산하던 정령 버드나무는 거대한 생명체에 의해 숲을 보호하는 힘의 원천을 빼앗깁니다.
-            그렇게 정령 버드나무에 의해 평화를 유지하던 니벨(Nibel) 숲은, 생명의 균형을 잃어 황폐화되기 시작합니다."
+            text="Ori를 찾기위해 빛을 발산하던 정령 나무는 거대한 생명체에 의해 숲을 보호하는 힘의 원천을 빼앗깁니다.
+            그렇게 정령 나무에 의해 평화를 유지하던 니벨(Nibel) 숲은, 생명의 균형을 잃어 황폐화되기 시작합니다."
           />
         </section>
 
         {/* 4 */}
         <div className={styles.image3}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={adventureStart}
             title="마지막 힘"
             text="나루가 쓰러진 후, 숲이 황폐화된 원인을 찾기 위해 길을 떠난 Ori도 결국 생명의 힘이 다해 쓰러집니다. 
-            하지만, 정령 버드나무는 마지막 남은 힘을 쏟아 Ori에게 생명을 불어넣습니다."
+            하지만, 정령 나무는 마지막 남은 힘을 쏟아 Ori에게 생명을 불어넣습니다."
           />
         </section>
 
         {/* 5 */}
         <div className={styles.image4}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={meetShine}
             title="잃어버린 빛"
-            text="정령 버드나무의 마지막 빛으로 깨어난 Ori는 정령 버드나무가 잃어버린 힘의 원천 '세인'을 만납니다. 
+            text="정령 나무의 마지막 빛으로 깨어난 Ori는 정령 나무가 잃어버린 힘의 원천 '세인'을 만납니다. 
             세인을 통해 Ori는 기능을 멈춘 니벨(Nibel)숲의 원소 3개를 다시 가동시켜 숲을 되살릴 수 있음을 알게 됩니다."
           />
         </section>
@@ -100,7 +100,7 @@ function Forest() {
         {/* 6 */}
         <div className={styles.image5}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={gumo}
             title="긴소나무의 수맥"
             text="숲을 되살리기 위한 첫 번째 원소인 물의 원소는 긴소나무에 존재합니다. 
@@ -112,7 +112,7 @@ function Forest() {
         {/* 7 */}
         <div className={styles.image6}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={tree}
             title="물의 원소"
             text="구모로부터 돌려받은 수맥으로, Ori는 긴소나무로 들어가 
@@ -124,7 +124,7 @@ function Forest() {
         {/* 8 */}
         <div className={styles.image7}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={smoke}
             title="구모의 문장, 안개숲"
             text="숲을 되살리기 위한 두 번째 원소인 바람의 원소는 구모의 고향, 버려진 유적에 존재합니다. 
@@ -136,7 +136,7 @@ function Forest() {
         {/* 9 */}
         <div className={styles.image8}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={wind}
             title="바람의 원소"
             text="버려진 유적에 들어온 Ori는 빛의 그릇을 들고 유적의 중심으로 이동하기 시작하고,
@@ -149,7 +149,7 @@ function Forest() {
         {/* 10 */}
         <div className={styles.image9}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={woe}
             title="태양석, 비애의 산길"
             text="숲을 되살리기 위한 마지막 원소인 불의 원소는 용암으로 뒤덮인 호루산에 존재합니다. 
@@ -161,7 +161,7 @@ function Forest() {
         {/* 11 */}
         <div className={styles.image10}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={recovery}
             title="빛의 그릇과 부활"
             text="쓰러진 나루가 있는 동굴로 이동한 구모는 유적에서 가져온 빛의 그릇의 힘을 사용하기 시작했고,
@@ -173,7 +173,7 @@ function Forest() {
         {/* 12 */}
         <div className={styles.image11}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={mountain}
             title="불의 원소"
             text="태양석을 사용해 호루산에 들어간 Ori는, 불의 원소로 향하는 길을 뒤덮고 있는 용암을 발견하게 됩니다.
@@ -184,7 +184,7 @@ function Forest() {
         {/* 13 */}
         <div className={styles.image12}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={kuro}
             title="빛을 쫓는 어둠"
             text="마지막으로 불의 원소를 다시 가동시킨 Ori는, 빛을 증오하는 '쿠로'의 공격을 받게 됩니다. 
@@ -195,11 +195,11 @@ function Forest() {
         {/* 14 */}
         <div className={styles.image13}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={kuro2}
             title="증오와 용서"
-            text="빛을 증오하는 쿠로의 의지는 마침내 Ori를 낚아챘고, Ori를 죽음으로 몰아갑니다. 
-            하지만, 뒤이어 나타난 나루와 Ori의 모습에 쿠로는 자신의 과거를 투영하며 그들을 용서하게 됩니다. 
+            text="빛에 대한 증오로 감싸진 쿠로의 의지는 마침내 Ori를 낚아챘고, Ori를 죽음으로 몰아갑니다. 
+            하지만, 뒤이어 나타난 나루와 Ori의 모습에 쿠로는 자신의 과거를 떠올리며 그를 용서하게 됩니다. 
             그리고 쿠로는 불타는 숲에서 자신이 지켜야 할 마지막 생명을 위해, 어떠한 결정을 하게 됩니다."
           />
         </section>
@@ -207,7 +207,7 @@ function Forest() {
         {/* 15 */}
         <div className={styles.image14}></div>
         <section data-scroll className={styles.content}>
-          <Section_content
+          <SectionContent
             imgsrc={forestEnd}
             title="되살아난 니벨(Nibel), 그리고 새로운 가족"
             text="Ori의 긴 노력 끝에, 니벨(Nibel) 숲은 다시 생명을 얻어 원래 모습으로 돌아오는 데 성공합니다.  

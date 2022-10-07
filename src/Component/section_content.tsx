@@ -1,6 +1,6 @@
 import styles from "../css/forest/Forest.module.css";
 
-export default function Section_content({ imgsrc, title, text }) {
+export default function SectionContent({ imgsrc, title, text }) {
   return (
     <>
       <div className={styles.box}>

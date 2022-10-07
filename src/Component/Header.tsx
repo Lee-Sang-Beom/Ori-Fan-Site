@@ -11,7 +11,7 @@ export default function Header() {
         <div className={styles.header__mainlogo}>
           {/* Link to 사용 : 내부 페이지 */}
           <Link to="/">
-            <img src={Orilogo} />
+            <img src={Orilogo} alt="ori-logo" />
           </Link>
         </div>
         <div className={styles.header__github}>
