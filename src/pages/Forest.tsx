@@ -1,7 +1,7 @@
 import styles from "../css/forest/Forest.module.css";
 import ScrollOut from "scroll-out";
 import { useEffect } from "react";
-import SectionContent from "../Component/section_content";
+import SectionContent from "../Component/section_content_forest";
 
 // video
 import start from "../video/forest_src/start.mp4";

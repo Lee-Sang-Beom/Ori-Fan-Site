@@ -1,7 +1,7 @@
 import styles from "../css/wisp/Wisp.module.css";
 import ScrollOut from "scroll-out";
 import { useEffect } from "react";
-import SectionContent from "../Component/section_content";
+import SectionContent from "../Component/section_content_wisp";
 
 // video
 import start from "../video/wisp_src/start.mp4";
@@ -9,7 +9,7 @@ import start from "../video/wisp_src/start.mp4";
 // img
 import topIcon from "../img/wisp_src/topIcon.jpg";
 
-import forestStart from "../img/forest_src/forestStart.jpg";
+import wispStart from "../img/wisp_src/start.jpg";
 import peaceful from "../img/forest_src/peaceful.jpg";
 import deadForest from "../img/forest_src/deadForest.jpg";
 import adventureStart from "../img/forest_src/adventureStart.jpg";
@@ -44,7 +44,7 @@ function Forest() {
         </video>
         <section data-scroll className={styles.content}>
           <SectionContent
-            imgsrc={forestStart}
+            imgsrc={wispStart}
             title="만남"
             text="니벨(Nibel) 숲의 어느 폭풍우 치는 밤, 정령 나무로부터 잎사귀가 떨어집니다. 
             근처에 있던 나루는 이 모습을 보고 잎사귀가 날아간 쪽으로 향하게 되고, 잎사귀로부터 태어난 정령을 발견합니다. 
