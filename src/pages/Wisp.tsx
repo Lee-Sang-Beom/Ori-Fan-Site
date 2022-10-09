@@ -45,10 +45,9 @@ function Forest() {
         <section data-scroll className={styles.content}>
           <SectionContent
             imgsrc={wispStart}
-            title="만남"
-            text="니벨(Nibel) 숲의 어느 폭풍우 치는 밤, 정령 나무로부터 잎사귀가 떨어집니다. 
-            근처에 있던 나루는 이 모습을 보고 잎사귀가 날아간 쪽으로 향하게 되고, 잎사귀로부터 태어난 정령을 발견합니다. 
-            '나루'는 정령에게 'Ori'라는 이름을 붙여줍니다."
+            title="새로운 생명"
+            text="과거, 쿠로가 지켜냈던 알이 어느날 깨지기 시작하며 니벨(Nibel) 숲에는 새로운 생명이 찾아옵니다. 
+            그렇게 태어난 아이는 '쿠'라는 이름을 얻었습니다."
           />
         </section>
 
