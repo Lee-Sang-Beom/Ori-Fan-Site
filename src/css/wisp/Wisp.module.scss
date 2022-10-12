@@ -108,63 +108,11 @@
 
 
 .image0 {
-    @include section_img("topIcon", 192px, 192px);
+    @include section_img("topIcon", "wisp_src", 192px, 192px);
 }
 
 .image1 {
-    @include section_img("peaceful");
-}
-
-.image2 {
-    @include section_img("deadForest");
-}
-
-.image3 {
-    @include section_img("adventureStart");
-}
-
-.image4 {
-    @include section_img("meetShine");
-}
-
-.image5 {
-    @include section_img("gumo");
-}
-
-.image6 {
-    @include section_img("tree");
-}
-
-.image7 {
-    @include section_img("smoke");
-}
-
-.image8 {
-    @include section_img("wind");
-}
-
-.image9 {
-    @include section_img("woe");
-}
-
-.image10 {
-    @include section_img("recovery");
-}
-
-.image11{
-    @include section_img("mountain");
-}
-
-.image12{
-    @include section_img("kuro");
-}
-
-.image13{
-    @include section_img("kuro2");
-}
-
-.image14{
-    @include section_img("forestEnd");
+    @include section_img("abnormalWings", "wisp_src");
 }
 
 .background{

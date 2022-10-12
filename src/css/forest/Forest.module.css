@@ -35,14 +35,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media screen and (max-width: 768px) {
-  .container .site_wrap .forest_logo {
-    box-shadow: none;
-    -webkit-animation: none;
-            animation: none;
-    padding: 0;
-  }
-}
 @media screen and (max-height: 560px) {
   .container .site_wrap .forest_logo {
     display: none;

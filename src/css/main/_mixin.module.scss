@@ -75,10 +75,10 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
 }
 
 // forest, wisp 페이지에서 사용하는 section별 img
-@mixin section_img($name, $w:100%, $h:100vh) {
+@mixin section_img($name, $src:"forest_src", $w:100%, $h:100vh, ) {
     width: $w;
     height: $h;
-    background: url(../../img/forest_src/#{$name}.jpg) no-repeat center;
+    background: url(../../img/#{$src}/#{$name}.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -93,12 +93,6 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
     top: calc(50% + 70px);
     left: 50%;
     transform: translate(-50%, -50%);
-
-    @media #{$width-medium} {
-        box-shadow: none;
-        animation: none;
-        padding: 0;
-    }
 
     @media screen and (max-height: 560px) {
         display: none;

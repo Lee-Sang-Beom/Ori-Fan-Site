@@ -108,63 +108,63 @@
 
 
 .image0 {
-    @include section_img("topIcon", 192px, 192px);
+    @include section_img("topIcon", "forest_src", 192px, 192px);
 }
 
 .image1 {
-    @include section_img("peaceful");
+    @include section_img("peaceful", "forest_src");
 }
 
 .image2 {
-    @include section_img("deadForest");
+    @include section_img("deadForest", "forest_src");
 }
 
 .image3 {
-    @include section_img("adventureStart");
+    @include section_img("adventureStart", "forest_src");
 }
 
 .image4 {
-    @include section_img("meetShine");
+    @include section_img("meetShine", "forest_src");
 }
 
 .image5 {
-    @include section_img("gumo");
+    @include section_img("gumo", "forest_src");
 }
 
 .image6 {
-    @include section_img("tree");
+    @include section_img("tree", "forest_src");
 }
 
 .image7 {
-    @include section_img("smoke");
+    @include section_img("smoke", "forest_src");
 }
 
 .image8 {
-    @include section_img("wind");
+    @include section_img("wind", "forest_src");
 }
 
 .image9 {
-    @include section_img("woe");
+    @include section_img("woe", "forest_src");
 }
 
 .image10 {
-    @include section_img("recovery");
+    @include section_img("recovery", "forest_src");
 }
 
 .image11{
-    @include section_img("mountain");
+    @include section_img("mountain", "forest_src");
 }
 
 .image12{
-    @include section_img("kuro");
+    @include section_img("kuro", "forest_src");
 }
 
 .image13{
-    @include section_img("kuro2");
+    @include section_img("kuro2", "forest_src");
 }
 
 .image14{
-    @include section_img("forestEnd");
+    @include section_img("forestEnd", "forest_src");
 }
 
 .background{
