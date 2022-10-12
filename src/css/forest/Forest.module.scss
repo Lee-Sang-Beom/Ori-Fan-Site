@@ -12,46 +12,7 @@
         background-color: #000000;
 
         .forest_logo {
-            position: absolute;
-            border-radius: 50%;
-            padding: 1.5rem;
-            z-index:2;
-            
-            // 70px: header
-            top: calc(50% + 70px);
-            left: 50%;
-
-            // 페이지 별 메인 로고 뒷배경 shadow
-            @include logo-shadow;
-
-            // forest page: set main logo position, scale animation
-            transition: all 0.5s ease;
-            transform: translate(-50%, -50%);
-
-            
-            @media #{$width-medium} {
-                box-shadow: none;
-                animation: none;
-                padding: 0;
-            }
-
-            @media screen and (max-height: 560px) {
-                display: none;
-            }
-
-            img {
-                width: 100%;
-                transition: all 0.5s ease;
-
-                &:hover {
-                    transform: scale(1.2);
-
-                    @media #{$width-medium} {
-                        transform: scale(1.1);
-                    }
-                }
-            }
-
+            @include logo-img;
         }
 
         section {

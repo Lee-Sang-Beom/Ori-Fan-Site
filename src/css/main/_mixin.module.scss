@@ -14,46 +14,6 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
     height: $h;
 }
 
-// 페이지 별 메인 로고 배경 shadow 정의
-@mixin logo-shadow {
-    box-shadow:
-        0 1px 1.5rem 0 #000000,
-        inset 0 2px 0.5rem 0 #e2e2e2,
-        inset 0 -2px 0.5rem 0 #e2e2e2;
-
-    animation: glow 1.5s linear infinite alternate;
-
-    @keyframes glow {
-
-        from {
-            /*애니메이션이 시작될 때 요소에게 지정할 스타일*/
-            box-shadow:
-                0 0 20px 0 white,
-                10px 10px 20px 10px #e2e2e2,
-                -10px -10px 20px 0 rgb(0, 0, 0),
-
-                inset 0 0 14px 0 white,
-                inset -40px -30px 60px 0 #e2e2e2,
-                inset -40px -30px 70px 0 rgb(104, 104, 104),
-                inset -40px -30px 100px 0 #1dddff;
-        }
-
-        to {
-            /*애니메이션이 종료될 때 요소에게 지정할 스타일*/
-            box-shadow:
-                0 0 20px 0 #1dddff,
-                10px 10px 20px 10px rgb(0, 0, 0),
-                -10px -10px 20px 0 #e2e2e2,
-
-                inset 0 0 14px 0 white,
-                inset -40px -30px 60px 0 rgb(0, 0, 0),
-                inset -40px -30px 70px 0 rgb(104, 104, 104),
-                inset -40px -30px 100px 0 #1dddff;
-        }
-    }
-
-}
-
 // section 영역의 box shadow
 @mixin section-box-shadow($color-1, $color-2, $color-3) {
     box-shadow:
@@ -121,4 +81,38 @@ $width-xlarge: "screen and (max-width: #{$xl-width})";
     background: url(../../img/forest_src/#{$name}.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
+}
+
+@mixin logo-img {
+    position: absolute;
+    border-radius: 50%;
+    padding: 1.5rem;
+    z-index: 2;
+
+    // 70px: header
+    top: calc(50% + 70px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @media #{$width-medium} {
+        box-shadow: none;
+        animation: none;
+        padding: 0;
+    }
+
+    @media screen and (max-height: 560px) {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        transition: all 1s ease;
+
+        &:hover{
+            transform: scale(0);
+        }
+    }
+
+    
+    
 }
