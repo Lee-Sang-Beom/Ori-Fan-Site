@@ -115,6 +115,10 @@
     @include section_img("abnormalWings", "wisp_src");
 }
 
+.image2{
+    @include section_img("kuroFeather", "wisp_src");
+}
+
 .background{
     width: 100%;
     height: 100vh;

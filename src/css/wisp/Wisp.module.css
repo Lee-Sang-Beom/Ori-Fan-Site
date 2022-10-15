@@ -133,6 +133,14 @@
   background-size: cover;
 }
 
+.image2 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/wisp_src/kuroFeather.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .background {
   width: 100%;
   height: 100vh;
