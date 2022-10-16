@@ -85,6 +85,10 @@
   border-radius: 1rem;
   border: none;
   box-shadow: 0 0 10px 0 white, 1px 1px 10px 0 rgba(255, 255, 255, 0.7), -1px -1px 10px 0 rgb(0, 0, 0);
+  transition: transform 0.5s ease-in-out;
+}
+.container .site_wrap section .box .left_box img:hover {
+  transform: scale(1.03);
 }
 @media screen and (max-width: 1024px) {
   .container .site_wrap section .box .left_box img {
@@ -98,6 +102,7 @@
   padding: 1.5rem;
   background-color: aliceblue;
   width: 35%;
+  transition: transform 0.5s ease-in-out;
 }
 @media screen and (max-width: 1024px) {
   .container .site_wrap section .box .right_box {
@@ -106,6 +111,9 @@
     margin-top: 2rem;
     box-shadow: 1px 1px 7px 0 white, -1px 1px 7px 0 white, 1px 3px 15px 0 rgba(255, 255, 255, 0.7), 1px -3px 15px 0 rgb(0, 0, 0);
   }
+}
+.container .site_wrap section .box .right_box:hover {
+  transform: scale(1.03);
 }
 .container .site_wrap section .box .right_box h1 {
   font-size: 1.2rem;

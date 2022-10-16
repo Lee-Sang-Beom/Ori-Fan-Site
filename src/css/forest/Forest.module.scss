@@ -61,6 +61,11 @@
                             1px 1px 10px 0 rgba(255, 255, 255, 0.7),
                             -1px -1px 10px 0 rgb(0, 0, 0);
 
+                        transition: transform 0.5s ease-in-out;
+                        &:hover{
+                            transform: scale(1.03);
+                        }
+
                         @media #{$width-large} {
                             width: 80%;
                         }
@@ -88,6 +93,11 @@
                             -1px 1px 7px 0 white,
                             1px 3px 15px 0 rgba(255, 255, 255, 0.7),
                             1px -3px 15px 0 rgb(0, 0, 0)
+                    }
+
+                    transition: transform 0.5s ease-in-out;
+                    &:hover{
+                        transform: scale(1.03);
                     }
 
                     h1 {

@@ -60,9 +60,14 @@
                             0 0 10px 0 white,
                             1px 1px 10px 0 rgba(255, 255, 255, 0.7),
                             -1px -1px 10px 0 rgb(0, 0, 0);
-
+                        
                         @media #{$width-large} {
                             width: 80%;
+                        }
+
+                        transition: transform 0.5s ease-in-out;
+                        &:hover{
+                            transform: scale(1.03);
                         }
                     }
                 }
@@ -78,6 +83,7 @@
                     padding: 1.5rem;
                     background-color: aliceblue;
                     width: 35%;
+                    
 
                     @media #{$width-large} {
                         width: 85%;
@@ -88,6 +94,11 @@
                             -1px 1px 7px 0 white,
                             1px 3px 15px 0 rgba(255, 255, 255, 0.7),
                             1px -3px 15px 0 rgb(0, 0, 0)
+                    }
+
+                    transition: transform 0.5s ease-in-out;
+                    &:hover{
+                        transform: scale(1.03);
                     }
 
                     h1 {
@@ -117,6 +128,10 @@
 
 .image2{
     @include section_img("kuroFeather", "wisp_src");
+}
+
+.image3{
+    @include section_img("dropKuroFeature", "wisp_src");
 }
 
 .background{

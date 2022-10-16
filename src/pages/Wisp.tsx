@@ -12,7 +12,7 @@ import topIcon from "../img/wisp_src/topIcon.jpg";
 import wispStart from "../img/wisp_src/start.jpg";
 import abnormalWing from "../img/wisp_src/abnormalWings.jpg";
 import kuroFeather from "../img/wisp_src/kuroFeather.jpg";
-
+import dropKuroFeature from "../img/wisp_src/dropKuroFeature.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -34,8 +34,8 @@ function Forest() {
           <SectionContent
             imgsrc={wispStart}
             title="새로운 생명"
-            text="과거, 쿠로가 지켜냈던 알이 어느날 깨지기 시작하며 니벨(Nibel) 숲에는 새로운 생명이 찾아옵니다. 
-            그렇게 태어난 아이는 '쿠'라는 이름을 가지게 되었습니다."
+            text="과거, 쿠로가 지켜냈던 알이 깨지기 시작하며 니벨(Nibel) 숲에는 새로운 생명이 찾아옵니다. 
+            그렇게 태어난 아이는 '쿠'라는 이름을 가지게 되었고, 평화로운 나날을 보내게 됩니다."
           />
         </section>
 
@@ -45,7 +45,8 @@ function Forest() {
           <SectionContent
             imgsrc={abnormalWing}
             title="상실"
-            text="새의 본능에 따라, 쿠는 성장하면서 하늘을 날아다니는 것에 대한 꿈을 꾸게 됩니다. 하지만, 선천적으로 정상적이지 못한 한 쪽 날개 때문에 쿠는 상실감에 빠지게 됩니다."
+            text="새의 본능에 따라, 쿠는 성장하면서 하늘을 날아다니는 것에 대한 꿈을 꾸게 됩니다. 
+            하지만, 선천적으로 정상적이지 못한 한 쪽 날개 때문에 쿠는 상실감에 빠지게 됩니다."
           />
         </section>
 
@@ -59,7 +60,18 @@ function Forest() {
                 구모는 Ori의 의중을 이해하고, 쿠의 비정상적인 날개에 쿠로의 깃털을 묶어주게 됩니다."
           />
         </section>
-       
+
+        {/* 4 */}
+        <div className={styles.image3}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={dropKuroFeature}
+            title="추락"
+            text="비행을 성공한 쿠는 Ori와 함께 니벨(Nibel) 숲 너머로 날아가기 시작합니다. 하지만 첫 비행으로 인한 기쁨도 잠시, 
+            정령 버드나무에 가까워질수록 심해지는 폭풍우 때문에 쿠의 한 쪽 날개에 묶어둔 쿠로의 깃털이 떨어져나가면서, 둘은 추락하여 이별하게 됩니다."
+          />
+        </section>
+        
       </div>
     </div>
   );
