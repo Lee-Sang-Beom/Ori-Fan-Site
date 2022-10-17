@@ -138,6 +138,14 @@
     @include section_img("longCry", "wisp_src");
 }
 
+.image5{
+    @include section_img("primordialLight", "wisp_src");
+}
+
+.image6{
+    @include section_img("kuolok", "wisp_src");
+}
+
 .background{
     width: 100%;
     height: 100vh;

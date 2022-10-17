@@ -14,6 +14,8 @@ import abnormalWing from "../img/wisp_src/abnormalWings.jpg";
 import kuroFeather from "../img/wisp_src/kuroFeather.jpg";
 import dropKuroFeature from "../img/wisp_src/dropKuroFeature.jpg";
 import longCry from "../img/wisp_src/longCry.jpg";
+import primordialLight from "../img/wisp_src/primordialLight.jpg";
+import kuolok from "../img/wisp_src/kuolok.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -83,7 +85,29 @@ function Forest() {
             하지만, Ori는 도주 중에 긴울음을 쫓아낼 수 있는 무언가를 발견하게 되고, 위협에 맞서 싸우기 시작합니다."
           />
         </section>
-        
+
+        {/* 6 */}
+        <div className={styles.image5}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={primordialLight}
+            title="오래된 나무의 기억"
+            text="긴울음과의 전투 후, Ori는 우연히 빛을 품은 나무를 발견하게 됩니다.
+                  나무에 손을 대자, 나무는 자신의 태고의 기억을 Ori에게 전해주었고, 그를 통해 Ori는 새로운 힘을 얻게 됩니다."
+          />
+        </section>
+
+        {/* 7 */}
+        <div className={styles.image6}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={kuolok}
+            title="늪지의 수호자, 쿠올록"
+            text="나무로부터 태고의 빛을 받은 후, Ori는 늪지의 거주민인 '모키'들을 만나게 됩니다. 
+            모키들은 Ori에게 잃어버린 친구를 찾기 위해서는 늪지의 수호자를 찾아가면 도움이 될 것이라고 말해주었고,
+            Ori는 수호자를 찾기 위한 여정을 떠나게 됩니다."
+          />
+        </section>
       </div>
     </div>
   );
