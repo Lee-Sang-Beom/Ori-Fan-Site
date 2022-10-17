@@ -13,6 +13,7 @@ import wispStart from "../img/wisp_src/start.jpg";
 import abnormalWing from "../img/wisp_src/abnormalWings.jpg";
 import kuroFeather from "../img/wisp_src/kuroFeather.jpg";
 import dropKuroFeature from "../img/wisp_src/dropKuroFeature.jpg";
+import longCry from "../img/wisp_src/longCry.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -69,6 +70,17 @@ function Forest() {
             title="추락"
             text="비행을 성공한 쿠는 Ori와 함께 니벨(Nibel) 숲 너머로 날아가기 시작합니다. 하지만 첫 비행으로 인한 기쁨도 잠시, 
             정령 버드나무에 가까워질수록 심해지는 폭풍우 때문에 쿠의 한 쪽 날개에 묶어둔 쿠로의 깃털이 떨어져나가면서, 둘은 추락하여 이별하게 됩니다."
+          />
+        </section>
+
+        {/* 5 */}
+        <div className={styles.image4}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={longCry}
+            title="먹물 늪지의 공포"
+            text="추락 후 깨어난 Ori는 쿠를 찾기 위해, 먹물 늪지 이곳 저곳을 돌아다니기 시작했고. 그 과정에서 '긴울음'의 공격을 받아 도망치게 됩니다. 
+            하지만, Ori는 도주 중에 긴울음을 쫓아낼 수 있는 무언가를 발견하게 되고, 위협에 맞서 싸우기 시작합니다."
           />
         </section>
         

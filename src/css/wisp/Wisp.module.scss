@@ -134,6 +134,10 @@
     @include section_img("dropKuroFeature", "wisp_src");
 }
 
+.image4{
+    @include section_img("longCry", "wisp_src");
+}
+
 .background{
     width: 100%;
     height: 100vh;
