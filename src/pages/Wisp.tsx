@@ -16,6 +16,7 @@ import dropKuroFeature from "../img/wisp_src/dropKuroFeature.jpg";
 import longCry from "../img/wisp_src/longCry.jpg";
 import primordialLight from "../img/wisp_src/primordialLight.jpg";
 import kuolok from "../img/wisp_src/kuolok.jpg";
+import waterSpring from "../img/wisp_src/waterSpring.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -106,6 +107,17 @@ function Forest() {
             text="나무로부터 태고의 빛을 받은 후, Ori는 늪지의 거주민인 '모키'들을 만나게 됩니다. 
             모키들은 Ori에게 잃어버린 친구를 찾기 위해서는 늪지의 수호자를 찾아가면 도움이 될 것이라고 말해주었고,
             Ori는 수호자를 찾기 위한 여정을 떠나게 됩니다."
+          />
+        </section>
+
+        {/* 8 */}
+        <div className={styles.image7}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={waterSpring}
+            title="돌아가지 않는 물레방아와 물샘터"
+            text="Ori는 쿠올록으로부터, 물샘의 문제를 해결하고 깨끗한 물이 정상적으로 흘러야 쿠가 있는 '말없는 숲'으로 갈 수 있다는 이야기를 듣게 되고, 물샘의 문제를 해결하기 위한 여정을 떠나기 시작합니다.
+             Ori는 여정 중에 물샘 근처의 마을인 물샘터를 발견하게 되고, 그곳에 사는 거주민들을 만나게 됩니다."
           />
         </section>
       </div>

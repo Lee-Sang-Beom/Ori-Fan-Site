@@ -181,6 +181,14 @@
   background-size: cover;
 }
 
+.image7 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/wisp_src/waterSpring.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .background {
   width: 100%;
   height: 100vh;

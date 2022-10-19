@@ -146,6 +146,10 @@
     @include section_img("kuolok", "wisp_src");
 }
 
+.image7{
+    @include section_img("waterSpring", "wisp_src");
+}
+
 .background{
     width: 100%;
     height: 100vh;
