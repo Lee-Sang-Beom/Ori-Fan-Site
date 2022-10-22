@@ -17,7 +17,7 @@ import longCry from "../img/wisp_src/longCry.jpg";
 import primordialLight from "../img/wisp_src/primordialLight.jpg";
 import kuolok from "../img/wisp_src/kuolok.jpg";
 import waterSpring from "../img/wisp_src/waterSpring.jpg";
-
+import threatOfTurbidWater from "../img/wisp_src/threatOfTurbidWater.jpg";
 function Forest() {
   useEffect(() => {
     ScrollOut({});
@@ -120,7 +120,20 @@ function Forest() {
              Ori는 여정 중에 물샘 근처의 마을인 물샘터를 발견하게 되고, 그곳에 사는 거주민들을 만나게 됩니다."
           />
         </section>
+
+        {/* 9 */}
+        <div className={styles.image8}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={threatOfTurbidWater}
+            title="탁해진 물의 근원과 쏟아지는 정화된 물"
+            text="물샘의 문제를 추적하던 Ori는 물샘터 도서관의 가장 최상층에서, 맑은 물의 흐름을 막고 있는 오염의 원인을 발견하게 됩니다. 
+            오염의 원인은 적개심을 드러내며 Ori를 쫓기 시작했고, 그와 동시에 막혀 있던 맑은 물도 삽시간에 쏟아져 나와 Ori를 위협하기 시작합니다."
+          />
+        </section>
       </div>
+
+      
     </div>
   );
 }

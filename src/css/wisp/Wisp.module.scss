@@ -150,6 +150,10 @@
     @include section_img("waterSpring", "wisp_src");
 }
 
+.image8{
+    @include section_img("threatOfTurbidWater", "wisp_src");
+}
+
 .background{
     width: 100%;
     height: 100vh;

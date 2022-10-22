@@ -12,5 +12,5 @@ Hobby Project - Ori
 	2. Ori and the Will of the Wisp
 		- Story
 		- Image of Section
-	    - to be added: soundtrack of Section or Boss
+		- to be added: soundtrack of Section or Boss
 
