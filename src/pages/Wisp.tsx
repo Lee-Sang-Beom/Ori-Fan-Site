@@ -18,6 +18,8 @@ import primordialLight from "../img/wisp_src/primordialLight.jpg";
 import kuolok from "../img/wisp_src/kuolok.jpg";
 import waterSpring from "../img/wisp_src/waterSpring.jpg";
 import threatOfTurbidWater from "../img/wisp_src/threatOfTurbidWater.jpg";
+import meet from "../img/wisp_src/meet.jpg";
+
 function Forest() {
   useEffect(() => {
     ScrollOut({});
@@ -129,6 +131,18 @@ function Forest() {
             title="탁해진 물의 근원과 쏟아지는 정화된 물"
             text="물샘의 문제를 추적하던 Ori는 물샘터 도서관의 가장 최상층에서, 맑은 물의 흐름을 막고 있는 오염의 원인을 발견하게 됩니다. 
             오염의 원인은 적개심을 드러내며 Ori를 쫓기 시작했고, 그와 동시에 막혀 있던 맑은 물도 삽시간에 쏟아져 나와 Ori를 위협하기 시작합니다."
+          />
+        </section>
+
+        {/* 10 */}
+        <div className={styles.image9}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={meet}
+            title="재회와 공포의 양면"
+            text="물샘이 정화되고, 물길이 열리면서 Ori는 쿠가 떨어진 '말 없는 숲'으로 이동하기 시작합니다. 
+            Ori는 다행히 숲의 지배자, '칼날 소리'의 눈을 피해 숨어있던 쿠를 발견했고, 
+            집으로 돌아가기 위해, Ori와 쿠는 잃어버린 쿠로의 깃털을 찾기 시작합니다."
           />
         </section>
       </div>
