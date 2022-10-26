@@ -158,6 +158,10 @@
     @include section_img("meet", "wisp_src");
 }
 
+.image10{
+    @include section_img("dyingLife", "wisp_src");
+}
+
 .background{
     width: 100%;
     height: 100vh;

@@ -19,6 +19,7 @@ import kuolok from "../img/wisp_src/kuolok.jpg";
 import waterSpring from "../img/wisp_src/waterSpring.jpg";
 import threatOfTurbidWater from "../img/wisp_src/threatOfTurbidWater.jpg";
 import meet from "../img/wisp_src/meet.jpg";
+import dyingLife from "../img/wisp_src/dyingLife.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -145,9 +146,20 @@ function Forest() {
             집으로 돌아가기 위해, Ori와 쿠는 잃어버린 쿠로의 깃털을 찾기 시작합니다."
           />
         </section>
+
+        {/* 11 */}
+      <div className={styles.image10}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={dyingLife}
+            title="꺼져가는 생명과 숲의 목소리"
+            text="말 없는 숲에서 탈출하던 과정에서, Ori와 쿠는 칼날 소리의 공격을 받게 됩니다. 
+            그 과정에서 쿠의 목숨은 경각에 처하게 되고, Ori는 아무것도 하지 못한 채, 쿠의 죽음을 바라보기만 하는 상황에 놓이게 됩니다.
+            슬픔에 잠긴 이 순간, 숲의 목소리는 쿠를 위하여, 자신의 힘을 다해 무언가를 하기 시작합니다."
+          />
+        </section>
       </div>
 
-      
     </div>
   );
 }
