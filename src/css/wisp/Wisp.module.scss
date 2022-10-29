@@ -1,6 +1,12 @@
 @import "../main/mixin.module.scss";
 @import "../scroll/scroll.module.scss";
 
+.background{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
 .container {
     @include setBoxSize(100vh, 100%);
     min-height: 350px;
@@ -162,8 +168,6 @@
     @include section_img("dyingLife", "wisp_src");
 }
 
-.background{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+.image11{
+    @include section_img("rememberOfForest", "wisp_src");
 }

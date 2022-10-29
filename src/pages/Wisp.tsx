@@ -20,23 +20,32 @@ import waterSpring from "../img/wisp_src/waterSpring.jpg";
 import threatOfTurbidWater from "../img/wisp_src/threatOfTurbidWater.jpg";
 import meet from "../img/wisp_src/meet.jpg";
 import dyingLife from "../img/wisp_src/dyingLife.jpg";
+import rememberOfForest from "../img/wisp_src/rememberOfForest.jpg";
 
 function Forest() {
   useEffect(() => {
     ScrollOut({});
   }, []);
 
-  return (
-    <div className={styles.container}>
-      <div className={styles.site_wrap}>
+  const logoAndVideo = () => {
+    return (
+      <>
         <div className={styles.wisp_logo}>
           <img src={topIcon} alt="top-icon"/>
         </div>
-
-        {/* 1 */}
         <video autoPlay loop muted className={styles.background}>
           <source src={start} type="video/mp4" />
         </video>
+      </>
+    )
+  }
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.site_wrap}>
+        {logoAndVideo()}
+
+        {/* 1 */}
         <section data-scroll className={styles.content}>
           <SectionContent
             imgsrc={wispStart}
@@ -158,8 +167,20 @@ function Forest() {
             슬픔에 잠긴 이 순간, 숲의 목소리는 쿠를 위하여, 자신의 힘을 다해 무언가를 하기 시작합니다."
           />
         </section>
-      </div>
 
+        {/* 12 */}
+      <div className={styles.image11}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={rememberOfForest}
+            title="숲의 기억"
+            text="숲의 목소리는 최선을 다했으나, 가지고 있던 빛이 너무나도 약했습니다. 
+            쿠올록은 Ori에게 정령 버드나무의 끝자락에서 빛이 부서지고 흩어진 파편에 대한 이야기를 해주며, 
+            4개의 빛의 파편을 모으면 숲의 목소리가 제 힘을 되찾을 수 있다고 말해줍니다. 
+            그렇게 Ori는 숲의 목소리와 함께 빛의 파편을 찾는 여정을 떠나게 됩니다."
+          />
+        </section>
+      </div>
     </div>
   );
 }

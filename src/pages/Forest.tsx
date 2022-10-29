@@ -31,17 +31,25 @@ function Forest() {
     ScrollOut({});
   }, []);
 
-  return (
-    <div className={styles.container}>
-      <div className={styles.site_wrap}>
+  const logoAndVideo = () => {
+    return (
+      <>
         <div className={styles.forest_logo}>
-          <img src={topIcon} alt="top-icon"/>
+          <img src={topIcon} alt="top-icon" />
         </div>
-
-        {/* 1 */}
         <video autoPlay loop muted className={styles.background}>
           <source src={start} type="video/mp4" />
         </video>
+      </>
+    )
+  }
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.site_wrap}>
+        {logoAndVideo()}
+
+        {/* 1 */}
         <section data-scroll className={styles.content}>
           <SectionContent
             imgsrc={forestStart}
