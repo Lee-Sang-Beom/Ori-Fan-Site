@@ -22,6 +22,7 @@ import meet from "../img/wisp_src/meet.jpg";
 import dyingLife from "../img/wisp_src/dyingLife.jpg";
 import rememberOfForest from "../img/wisp_src/rememberOfForest.jpg";
 import luma from "../img/wisp_src/luma.jpg";
+import bour from "../img/wisp_src/bour.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -182,7 +183,7 @@ function Forest() {
           />
         </section>
 
-        {/* 12 */}
+        {/* 13 */}
         <div className={styles.image12}></div>
         <section data-scroll className={styles.content}>
           <SectionContent
@@ -191,6 +192,18 @@ function Forest() {
             text="Ori는 흩어진 빛의 파편을 찾기 위한 여정 속에서 루마 큰못을 방문하게 되고, 
             탐험 과정에서, 빛의 파편을 먼저 찾고 있던 쿠올록을 만나게 됩니다. 
             마침내 빛의 파편을 마주한 순간, Ori는 잊고 있던 위험 또한 함께 마주하게 됩니다."
+          />
+        </section>
+
+        {/* 14 */}
+        <div className={styles.image13}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={bour}
+            title="바우어의 영토"
+            text="Ori는 흩어진 빛의 파편을 찾기 위한 여정 속에서 바우어의 영토를 방문하게 되고, 
+            바우어를 통해 빛의 파편이 영토의 최상, 높은 산봉우리에 있음을 알게 됩니다. 
+            거센 바람이 불어오는 산봉우리에서 Ori는 마침내 빛을 발견했지만, 다른 누군가도 Ori를 발견하게 됩니다."
           />
         </section>
       </div>
