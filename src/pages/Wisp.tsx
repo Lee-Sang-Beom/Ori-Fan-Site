@@ -23,6 +23,7 @@ import dyingLife from "../img/wisp_src/dyingLife.jpg";
 import rememberOfForest from "../img/wisp_src/rememberOfForest.jpg";
 import luma from "../img/wisp_src/luma.jpg";
 import bour from "../img/wisp_src/bour.jpg";
+import mora from "../img/wisp_src/mora.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -204,6 +205,17 @@ function Forest() {
             text="Ori는 흩어진 빛의 파편을 찾기 위한 여정 속에서 바우어의 영토를 방문하게 되고, 
             바우어를 통해 빛의 파편이 영토의 최상, 높은 산봉우리에 있음을 알게 됩니다. 
             거센 바람이 불어오는 산봉우리에서 Ori는 마침내 빛을 발견했지만, 다른 누군가도 Ori를 발견하게 됩니다."
+          />
+        </section>
+
+        {/* 14 */}
+        <div className={styles.image14}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={mora}
+            title="곰팡이숲 깊은터"
+            text="또다른 빛의 파편이 숨겨져 있는 곰팡이숲 깊은터로 이동한 Ori는 썩음병의 위협 속에서 가장 깊고 어두운 공간으로 이동하게 됩니다. 
+            그리고 Ori는 그곳에서 거미줄에 둘러싸인 빛의 파편과 깊은터의 지배자 '모라'와 조우하게 됩니다."
           />
         </section>
       </div>
