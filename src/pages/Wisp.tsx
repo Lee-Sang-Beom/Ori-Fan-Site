@@ -24,6 +24,7 @@ import rememberOfForest from "../img/wisp_src/rememberOfForest.jpg";
 import luma from "../img/wisp_src/luma.jpg";
 import bour from "../img/wisp_src/bour.jpg";
 import mora from "../img/wisp_src/mora.jpg";
+import imminentDanger from "../img/wisp_src/imminentDanger.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -216,6 +217,17 @@ function Forest() {
             title="곰팡이숲 깊은터"
             text="또다른 빛의 파편이 숨겨져 있는 곰팡이숲 깊은터로 이동한 Ori는 썩음병의 위협 속에서 가장 깊고 어두운 공간으로 이동하게 됩니다. 
             그리고 Ori는 그곳에서 거미줄에 둘러싸인 빛의 파편과 깊은터의 지배자 '모라'와 조우하게 됩니다."
+          />
+        </section>
+
+        {/* 14 */}
+        <div className={styles.image15}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={imminentDanger}
+            title="임박한 위험"
+            text="마지막 빛의 파편을 찾기 위해, 돌개바람 벌판으로 이동하던 Ori는 칼날소리를 마주치게 됩니다. 
+            위험한 상황임에도, Ori는 칼날소리의 눈을 피해 돌개바람 벌판의 입구로 조금씩 이동하기 시작합니다."
           />
         </section>
       </div>
