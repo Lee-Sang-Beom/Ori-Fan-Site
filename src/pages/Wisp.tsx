@@ -25,6 +25,7 @@ import luma from "../img/wisp_src/luma.jpg";
 import bour from "../img/wisp_src/bour.jpg";
 import mora from "../img/wisp_src/mora.jpg";
 import imminentDanger from "../img/wisp_src/imminentDanger.jpg";
+import worm from "../img/wisp_src/worm.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -228,6 +229,17 @@ function Forest() {
             title="임박한 위험"
             text="마지막 빛의 파편을 찾기 위해, 돌개바람 벌판으로 이동하던 Ori는 칼날소리를 마주치게 됩니다. 
             위험한 상황임에도, Ori는 칼날소리의 눈을 피해 돌개바람 벌판의 입구로 조금씩 이동하기 시작합니다."
+          />
+        </section>
+
+        {/* 14 */}
+        <div className={styles.image16}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={worm}
+            title="완성된 빛, 세이르"
+            text="칼날소리의 위협을 벗어난 Ori는 돌개바람 벌판으로 향하게 되고, 깊은 유적에서 빛의 파편을 찾게 됩니다. 
+            흩어져있던 빛은 비로소 합쳐져 세이르로 탄생했으며, 이와 함께 잠들어있던 무언가가 깨어나게 됩니다."
           />
         </section>
       </div>
