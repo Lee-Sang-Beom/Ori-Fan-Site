@@ -28,6 +28,7 @@ import imminentDanger from "../img/wisp_src/imminentDanger.jpg";
 import worm from "../img/wisp_src/worm.jpg";
 import returnTree from "../img/wisp_src/returnTree.jpg";
 import evilRelationship from "../img/wisp_src/evilRelationship.jpg";
+import sacrificeAndCycle from "../img/wisp_src/sacrificeAndCycle.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -262,8 +263,20 @@ function Forest() {
           <SectionContent
             imgsrc={evilRelationship}
             title="악연의 종식"
-            text={`Ori에게 돌아가던 세이르는 칼날소리의 공격에 의해 정령 버드나무 대지 아래로 추락하게 되고, 칼날소리는 Ori를 매섭게 공격하기 시작합니다. 
+            text={`Ori에게 돌아가던 세이르는 칼날소리의 공격에 의해 깊은 절벽 아래로 추락하게 되고, 칼날소리는 Ori를 매섭게 공격하기 시작합니다. 
             Ori는 이곳에서, 칼날소리와의 악연을 종식하기 위한 사투를 벌이게 됩니다.`}
+          />
+        </section>
+
+        {/* 20 */}
+        <div className={styles.image19}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={sacrificeAndCycle}
+            title="희생과 순환"
+            text={`Ori는 무너진 정령 나무를 대신하여 세이르를 품었고, 자신의 생명을 대가로 숲과 쓰러진 쿠를 되살립니다. 
+            모두가 Ori의 희생을 슬퍼하던 순간, 그 자리에는 새로운 버드나무의 새싹이 자라났고, 오랜 시간이 지나 새싹은 거대한 정령 나무로 성장했습니다. 
+            폭풍우 치는 어느 밤, 마치 이야기의 처음을 암시하는 운명의 순환을 알리듯 잎사귀가 떨어지며 이야기는 마무리됩니다.`}
           />
         </section>
       </div>

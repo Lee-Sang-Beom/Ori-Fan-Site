@@ -282,4 +282,12 @@
   background: url(../../img/wisp_src/evilRelationship.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.image19 {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/wisp_src/sacrificeAndCycle.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
 }/*# sourceMappingURL=Wisp.module.css.map */
