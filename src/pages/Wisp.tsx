@@ -27,6 +27,7 @@ import mora from "../img/wisp_src/mora.jpg";
 import imminentDanger from "../img/wisp_src/imminentDanger.jpg";
 import worm from "../img/wisp_src/worm.jpg";
 import returnTree from "../img/wisp_src/returnTree.jpg";
+import evilRelationship from "../img/wisp_src/evilRelationship.jpg";
 
 function Forest() {
   useEffect(() => {
@@ -240,7 +241,7 @@ function Forest() {
             imgsrc={worm}
             title="완성된 빛, 세이르"
             text="칼날소리의 위협을 벗어난 Ori는 돌개바람 벌판으로 향하게 되고, 깊은 유적에서 빛의 파편을 찾게 됩니다. 
-            흩어져있던 빛은 비로소 합쳐져 세이르로 탄생했으며, 이와 함께 잠들어있던 무언가가 깨어나게 됩니다."
+            흩어져있던 빛은 비로소 합쳐져 세이르로 탄생했지만, 이와 함께 잠들어있던 무언가가 깨어나게 됩니다."
           />
         </section>
 
@@ -251,7 +252,18 @@ function Forest() {
             imgsrc={returnTree}
             title="되돌아간 빛, 저무는 시대"
             text={`오염을 제거하고 숲을 되살리기 위해, 세이르는 자신이 있어야 할 정령 버드나무의 품으로 돌아가게 됩니다. 
-            하지만, 정령 버드나무는 "나의 시대는 지나갔다. 새로운 시대가 시작되어야 해."라고 말하며, 세이르를 Ori에게 건네줍니다.`}
+            하지만 정령 버드나무는 한마디 말을 남기며, 세이르를 Ori에게 돌려줍니다. "나의 시대는 지나갔다. 새로운 시대가 시작되어야 해."`}
+          />
+        </section>
+
+        {/* 19 */}
+        <div className={styles.image18}></div>
+        <section data-scroll className={styles.content}>
+          <SectionContent
+            imgsrc={evilRelationship}
+            title="악연의 종식"
+            text={`Ori에게 돌아가던 세이르는 칼날소리의 공격에 의해 정령 버드나무 대지 아래로 추락하게 되고, 칼날소리는 Ori를 매섭게 공격하기 시작합니다. 
+            Ori는 이곳에서, 칼날소리와의 악연을 종식하기 위한 사투를 벌이게 됩니다.`}
           />
         </section>
       </div>
